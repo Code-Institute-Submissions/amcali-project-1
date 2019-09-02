@@ -1,8 +1,27 @@
-/*nav{*/
-/*    background-color:#e3fcfa;*/
-/*    height:60px;*/
-/*}*/
+nav {
+    background-color:#CAD7FD;
+    height:80px;
+    padding:20px;
+}
 
-/*.container{*/
-/*    background-color:yellow;*/
-/*}*/
+.nav-item{
+    text-align:center;
+}
+
+
+/*monochromatic colors: #CAD7FD=lighter purple #99B2FB=darker purple*/
+
+.nav-item:hover{
+    background-color:#99B2FB;
+}
+
+/*#FDF0CA=light peach; complementary color=#CAD7FD (purple like)
+analogous: #FDF0CA= light peach #F0FDCA=light green #FDD7CA=light pink
+#FDF0CA=lighter peach #FBE299=darker peach*/
+.container{
+    background-color:#FDF0CA; 
+}
+
+.container-fluid{
+    margin:0;
+}
