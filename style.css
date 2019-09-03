@@ -6,10 +6,11 @@
     #FDF0CA=lighter peach #FBE299=darker peach
 */
 
-body{
+html, body{
     margin:0;
     padding:0;
     font-family: 'IBM Plex Serif', serif;
+    font-color:silver;
 }
 
 
@@ -43,14 +44,15 @@ nav {
     margin:0px;
     padding:5px;
     height:805px;
+    opacity:0.6;
     background-image:url(images/stones.jpg);
     background-size:cover;
     background-position:bottom;
     background-attachment:fixed;
-    z-index:-1;
+    /*z-index:-1;*/
 }
 
-#about, #skills, #projects, #contact{
+.about, .skills, .projects, .contact{
     margin:0;
     padding:10px;
     height:805px;
@@ -58,6 +60,9 @@ nav {
 
 h2{
     padding:5px;
+    font-size:40px;
+    font-weight:800;
+    text-transform:capitalize;
     text-align:center;
 }
 
@@ -87,12 +92,30 @@ main{
 img {
   width: 260px;
   height: 400px;
-  object-fit: cover;
+  object-fit:cover;
+}
+
+.contact{
+    margin:0;
+    padding:0;
+    height:810px;
+    background-image:url(images/contact-image.jpg);
+    background-size:covers;
+    background-attachment:fixed;
+    z-index:-1;
+}
+
+.form-group{
+    width:30%;
 }
 
 footer{
     margin:0;
-    padding:10px;
+    padding:0px;
     background-color:#CAD7FD;
     height:10%;
+}
+
+.footer-icon>i{
+    height:40px;
 }
