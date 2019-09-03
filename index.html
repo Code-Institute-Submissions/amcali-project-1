@@ -8,39 +8,45 @@
     <!--Bootstrap CSS-->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"><link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
+    <!--<link href="https://fonts.googleapis.com/css?family=Dancing+Script&display=swap" rel="stylesheet">  <!--google fonts-->
     <link href="style.css" rel="stylesheet" type=text/css />
+    
+    <style>
+        @import url('https://fonts.googleapis.com/css?family=Dancing+Script&display=swap');
+        @import url('https://fonts.googleapis.com/css?family=IBM+Plex+Serif&display=swap');
+    </style>
     
     <title>Portfolio - Arwa Ali</title>
     
 
 </head>
 <body>
-    <nav class="container-fluid sticky-top">
-        <ul class="nav nav-pills nav-fill">
-            <li class="col-2 nav-item">
-                <a class="nav-link" href="#home">Home</a>
-            </li>
-            <li class="col-2 nav-item">
-                <a class="nav-link" href="#about">About</a>
-            </li>
-            <li c
-            <li class="col-2 nav-item">
-                <a class="nav-link" href="#skills">Skills</a>
-            </li>
-            <li class="col-2 nav-item">
-              <a class="nav-link" href="#projects">Projects</a>
-            </li>
-            <li class="col-2 nav-item">
-              <a class="nav-link" href="#">Resume</a> <!--downloadable file of my resume -->
-            </li>
-            <li class="col-2 nav-item">
-                <a class="nav-link" href="#contact">Contact</a>
-            </li>
-        </ul>
-    </nav>
-    <main>
+        <nav class="container-fluid sticky-top">
+            <ul class="nav nav-pills nav-fill">
+                <li class="col-2 nav-item">
+                    <a class="nav-link" href="#home">Home</a>
+                </li>
+                <li class="col-2 nav-item">
+                    <a class="nav-link" href="#about">About</a>
+                </li>
+                <li c
+                <li class="col-2 nav-item">
+                    <a class="nav-link" href="#skills">Skills</a>
+                </li>
+                <li class="col-2 nav-item">
+                  <a class="nav-link" href="#projects">Projects</a>
+                </li>
+                <li class="col-2 nav-item">
+                  <a class="nav-link" href="#">Resume</a> <!--downloadable file of my resume -->
+                </li>
+                <li class="col-2 nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                </li>
+            </ul>
+        </nav>
+        
+        <main>
         <div class="container-fluid">
-            
             <!--Home Section -->
             <div class="jumbotron jumbotron-fluid">
                 <div id="home">
@@ -49,28 +55,35 @@
             </div>
             
             <!--About Section -->
-            <div id="about">
+            <section id="about">
                 <h2>About</h2>
-                <p>
-                  My name is Arwa. I am a Software Development student at Code Institute.
-                  In my free time, I like to burn my curiosity by exploring different languages on my laptop, 
-                  or brewing up food concoctions in the kitchen at home.
-                </p>
-                <p>
-                    This site is to lay out a niche for me to portray my works inspired by my curiosity.
-                </p>
-            </div>
+                <div class="d-flex flex-row justify-content-center">
+                    <div class="col-8 text-center p-4" id="about-info">
+                        <p>
+                          My name is Arwa. I am a Software Development student at Code Institute.
+                          In my free time, I like to burn my curiosity by exploring different languages on my laptop, 
+                          or brewing up food concoctions in the kitchen at home.
+                        </p>
+                        <p>
+                            This site is to lay out a niche for me to portray my works inspired by my curiosity.
+                        </p>
+                    </div>
+                    <div class="col-4" id="self-image">
+                       <img src="images/portrait-photo.jpg" alt="my photo"> 
+                    </div>
+                </div>
+            </section>
             
             <!--My Skills-->
             <div id="skills">
                 <h2>Skills</h2>
                 <ul>
-                  <li>HTML</li>
-                  <li>CSS</li>
-                  <li>Bootstrap</li>
-                  <li>JavaScript</li>
-                  <li>Java</li>
-                  <li>SQL</li>
+                  <li class="col-4">HTML</li>
+                  <li class="col-4">CSS</li>
+                  <li class="col-4">Bootstrap</li>
+                  <li class="col-4">JavaScript</li>
+                  <li class="col-4">Java</li>
+                  <li class="col-4">SQL</li>
                 </ul>
             </div>
             

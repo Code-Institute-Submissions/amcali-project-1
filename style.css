@@ -9,7 +9,10 @@
 body{
     margin:0;
     padding:0;
+    font-family: 'IBM Plex Serif', serif;
 }
+
+
 
 nav {
     height:10%;
@@ -32,6 +35,7 @@ nav {
 .container-fluid{
     margin:0;
     padding:0;
+    background-color:#F0FDCA;
 }
 
 
@@ -46,11 +50,24 @@ nav {
     z-index:-1;
 }
 
+#about, #skills, #projects, #contact{
+    margin:0;
+    padding:10px;
+    height:805px;
+}
+
+h2{
+    padding:5px;
+    text-align:center;
+}
 
 #home{
     margin:0px;
-    padding:40%,60%;
+    height:200px;
     position:relative;
+    font-family: 'Dancing Script', cursive;
+    font-size:60px;
+    color:grey;
     text-align:center;
     top:15%;
     left:20%;
@@ -64,11 +81,14 @@ nav {
 main{
     margin:0px;
     padding:0px;
-    height:60%;
-    background-color:#FDF0CA;
-    /*background-attachment:fixed;*/
+    height:810px;
 }
 
+img {
+  width: 260px;
+  height: 400px;
+  object-fit: cover;
+}
 
 footer{
     margin:0;
