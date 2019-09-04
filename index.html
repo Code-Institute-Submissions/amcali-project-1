@@ -21,7 +21,7 @@
 
 </head>
 <body>
-        <nav class="container-fluid sticky-top">
+        <nav class="container-fluid fixed-top py-0.5">
             <ul class="nav nav-pills nav-fill">
                 <li class="col-2 nav-item">
                     <a class="nav-link" href="#home">Home</a>
@@ -55,7 +55,7 @@
             </div>
             
             <!--About Section -->
-            <div class="about">
+            <div id="about">
                 <h2>About</h2>
                 <div class="d-flex flex-row justify-content-center">
                     <div class="col-8 text-center p-4" id="about-info">
@@ -75,10 +75,15 @@
             </div>
             
             <!--My Skills-->
-            <div class="skills">
-                <h2>Skills</h2>
-                <div class="d-flex flex-row justify-content-around">
-                    <div class="col-1">
+            <div class="container">
+            	<div class="d-flex flex-column" id="skills">
+            		<div class="row justify-content-center">
+                    <h2>Skills</h2>
+            		</div>
+            		
+            		<div class="row border black">
+                  <div class="d-flex flex-row justify-content-around border black">
+                    <div class="col-1 border black">
                       <a class="btn btn-outline-danger" href="https://en.wikipedia.org/wiki/HTML" target="_blank" role="button">HTML</a>
                     </div>
                     <div class="col-1">
@@ -96,8 +101,13 @@
                     <div class="col-1">
                       <a class="btn btn-outline-info" href="https://en.wikipedia.org/wiki/SQL" target="_blank" role="button">SQL</a>
                     </div>
+                  </div>
                 </div>
-                </ul>
+                            
+            		<div class="row border black">
+            			<p>Software Skills</p>
+            		</div>
+            	</div>
             </div>
             
             <!--Projects-->
@@ -150,49 +160,67 @@
             </div>
             
             <!--Contact Me-->
-            <div class="contact">
-              <h2>Contact Me</h2>
-              
-              <p>
-                  Feel free to leave me a comment or if you would like to get in touch with me for any collaborations:
-              </p>
-              
-                <form>
-                  <div class="form-group" id="name-field">
-                    <label for="name">Name:</label>
-                    <input type="text" id="name" placeholder="Enter your name">
-                  </div>
-                  
-                  <div class="form-group" id="email-field">
-                      <label for="email">Email Address:</label>
-                      <input type="email" class="form-control" id="email" aria-describedby="email" placeholder="john.doe@abcdmail.com">
-                  </div>
-                  
-                  <div class="form-group" id="message-field">
-                      <label for="textarea">Message:</label>
-                      <textarea class="form-control" id="message" rows="10"></textarea>
-                  </div>
-                  
-                  <div class="form-group">
-                      <button type="submit" class="btn btn-secondary">Send</button>
-                  </div>
-                </form>
+            <div class="container-fluid" id="contact">
+              <div class="contact-me">
+                  <div class="col">
+                    
+                    <div class="col py-3 justify-content-center">
+                      <h2>Contact Me</h2>
+                    </div>
+                    
+                    <div class="container" id="container-1">
+                      <div class="col py-5 justify-content-center">
+                        <p>
+                          Feel free to leave a comment or if you would like to get in touch with me for any collaborations:
+                        </p>
+                      </div>
+                      
+                      <div class="container" id="container-2 justify-content-center">
+                        <form>                      
+                          <div class="row px-4 d-inline justify-content-start form-group">
+                            <div>
+                              <label for="name">Name:</label>
+                              <input type="text" id="name" placeholder="Enter your name">
+                            </div>
+                          </div>
+                          
+                          <div class="row px-4 d-inline justify-content-start form-group">
+                            <div>
+                              <label for="email">Email Address:</label>
+                              <input type="email" class="form-control" id="email" aria-describedby="email" placeholder="john.doe@abcdmail.com">
+                            </div>
+                          </div>
+                          
+                          <div class="col justify-content-start form-group">
+                            <div>
+                              <label for="textarea">Message:</label>
+                              <textarea class="form-control" id="message" rows="10"></textarea>
+                            </div>
+                          </div>
+                          
+                          <div class="col justify-content-start form-group">
+                            <button type="submit" class="btn btn-secondary">Send</button>
+                          </div>
+                        </form>
+                      </div>
+                    </div>
+                </div>
+              </div>
             </div>
-          </div>
-        </div>
+
     </main>
     <footer class="fixed-bottom">
-        <div class="footer"></div>
+        <div class="footer p-2"></div>
             <a class="footer-icon" id="linkedin" href="http://www.linkedin.com" target="_blank">
-                <i class="fa fa-linkedin-square" aria-hidden="true"></i>
+                <i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i>
             </a>
             
             <a class="footer-icon" id="facebook" href="http://www.facebook.com target="_blank">
-                <i class="fa fa-facebook-official" aria-hidden="true"></i>
+                <i class="fa fa-facebook-official fa-2x" aria-hidden="true"></i>
             </a>
             
             <a class="footer-icon" id="instagram" href="http://www.instagram.com" target="_blank">
-                <i class="fa fa-instagram" aria-hidden="true"></i>
+                <i class="fa fa-instagram fa-2x" aria-hidden="true"></i>
             </a>
         </div>
     </footer>
