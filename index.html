@@ -21,7 +21,7 @@
 
 </head>
 <body>
-        <nav class="container-fluid fixed-top py-0.5">
+        <nav class="container-fluid fixed-top p-1">
             <ul class="nav nav-pills nav-fill">
                 <li class="col-2 nav-item">
                     <a class="nav-link" href="#home">Home</a>
@@ -49,13 +49,13 @@
         <div class="container-fluid">
             <!--Home Section -->
             <div class="jumbotron jumbotron-fluid">
-                <div id="home">
-                    "Stepping stones pebble milestones. Milestones mine gemstones."
-                </div>
+              <div class="container-fluid  align-self-center" id="home">
+                <p>"Stepping stones pebble milestones. Milestones mine gemstones."</p>
+              </div>
             </div>
             
             <!--About Section -->
-            <div id="about">
+            <div class="container-fluid p-1" id="about">
                 <h2>About</h2>
                 <div class="d-flex flex-row justify-content-center">
                     <div class="col-8 text-center p-4" id="about-info">
@@ -74,48 +74,44 @@
                 </div>
             </div>
             
-            <!--My Skills-->
-            <div class="container">
-            	<div class="d-flex flex-column" id="skills">
-            		<div class="row justify-content-center">
+            <!--Skills Section-->
+            <div class="container-fluid p-1" id="skills">
+
+            		<div>
                     <h2>Skills</h2>
             		</div>
             		
-            		<div class="row border black">
-                  <div class="d-flex flex-row justify-content-around border black">
-                    <div class="col-1 border black">
-                      <a class="btn btn-outline-danger" href="https://en.wikipedia.org/wiki/HTML" target="_blank" role="button">HTML</a>
+                  <div class="d-flex-align-items justify-content-around">
+                    <div class="row p-1 justify-content-around">
+                      <div class="p-2">
+                        <a class="btn btn-outline-danger" href="https://en.wikipedia.org/wiki/HTML" target="_blank" role="button">HTML</a>
+                      </div>
+                      <div class="p-2">
+                        <a class="btn btn-outline-primary" href="https://en.wikipedia.org/wiki/Cascading_Style_Sheets" target="_blank" role="button">CSS</a>
+                      </div>
+                      <div class="p-2">
+                        <a class="btn btn-outline-dark" href="https://en.wikipedia.org/wiki/Bootstrap_(front-end_framework)" target="_blank" role="button">Bootstrap</a>
+                      </div>
                     </div>
-                    <div class="col-1">
-                      <a class="btn btn-outline-primary" href="https://en.wikipedia.org/wiki/Cascading_Style_Sheets" target="_blank" role="button">CSS</a>
-                    </div>
-                    <div class="col-1">
-                      <a class="btn btn-outline-dark" href="https://en.wikipedia.org/wiki/Bootstrap_(front-end_framework)" target="_blank" role="button">Bootstrap</a>
-                    </div>
-                    <div class="col-1">
-                      <a class="btn btn-outline-info" href="https://en.wikipedia.org/wiki/Java_(programming_language)" target="_blank" role="button">Java</a>
-                    </div>
-                    <div class="col-1">
-                      <a class="btn btn-outline-secondary" href="https://en.wikipedia.org/wiki/JavaScript" target="_blank" role="button">JavaScript</a>
-                    </div>
-                    <div class="col-1">
-                      <a class="btn btn-outline-info" href="https://en.wikipedia.org/wiki/SQL" target="_blank" role="button">SQL</a>
+                    <div class="row p-1 justify-content-around">
+                      <div class="p-2">
+                        <a class="btn btn-outline-info" href="https://en.wikipedia.org/wiki/Java_(programming_language)" target="_blank" role="button">Java</a>
+                      </div>
+                      <div class="p-2">
+                        <a class="btn btn-outline-secondary" href="https://en.wikipedia.org/wiki/JavaScript" target="_blank" role="button">JavaScript</a>
+                      </div>
+                      <div class="p-2">
+                        <a class="btn btn-outline-info" href="https://en.wikipedia.org/wiki/SQL" target="_blank" role="button">SQL</a>
+                      </div>
                     </div>
                   </div>
-                </div>
-                            
-            		<div class="row border black">
-            			<p>Software Skills</p>
-            		</div>
             	</div>
             </div>
             
-            <!--Projects-->
-            <div class="projects">
+            <!--Projects Section-->
+            <div class="container-fluid p-1" id="projects">
                 <h2>Projects</h2>
-            <!--    <a id="projects-construction" href="/projects.html" target="_blank">Some of my ongoing projects</a>-->
-            <!--</div>-->
-            
+
             <!--Displaying projects in a carousel-->
                 <div class="projects-list">
                   <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
@@ -129,21 +125,21 @@
                         <img src="images/draw.jpg" class="d-block w-100" alt="Project Draw">
                         <div class="carousel-caption d-none d-md-block">
                           <h5>Learn To Draw</h5>
-                          <p>Tips here on how to draw</p>
+                          <a class="carousel-link" href="https://www.drawinghowtodraw.com/stepbystepdrawinglessons/" target="_blank">Tips here on how to draw</a>
                         </div>
                       </div>
                       <div class="carousel-item">
                         <img src="images/book.jpg" class="d-block w-100" alt="...">
                         <div class="carousel-caption d-none d-md-block">
                           <h5>Freelance Writing</h5>
-                          <p>Learn freelance writing on your own!</p>
+                          <a class="carousel-link" href="https://elnacain.com/blog/getting-started-freelance-writing/" target="_blank">Learn freelance writing on your own!</a>
                         </div>
                       </div>
                       <div class="carousel-item">
                         <img src="images/food.jpg" class="d-block w-100" alt="Project 3 - My Recipes">
                         <div class="carousel-caption d-none d-md-block">
                           <h5>Healthy Recipes For All</h5>
-                          <p>A collection of my cooking recipes</p>
+                          <a class="carousel-link" href="https://www.goodfood.com.au/recipes/recipe-collections" target="_blank">A collection of food recipes</a>
                         </div>
                       </div>
                     </div>
@@ -160,7 +156,7 @@
             </div>
             
             <!--Contact Me-->
-            <div class="container-fluid" id="contact">
+            <div class="container-fluid p-1" id="contact">
               <div class="contact-me">
                   <div class="col">
                     
@@ -203,14 +199,15 @@
                           </div>
                         </form>
                       </div>
+                      
                     </div>
-                </div>
+                  </div>
               </div>
             </div>
 
     </main>
     <footer class="fixed-bottom">
-        <div class="footer p-2"></div>
+        <div class="footer p-2">
             <a class="footer-icon" id="linkedin" href="http://www.linkedin.com" target="_blank">
                 <i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i>
             </a>

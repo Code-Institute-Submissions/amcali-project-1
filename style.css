@@ -10,7 +10,8 @@ html, body{
     margin:0;
     padding:0;
     font-family: 'IBM Plex Serif', serif;
-    font-color:white;
+    color:silver;
+    background-color:#F0FDCA;
 }
 
 
@@ -23,24 +24,27 @@ nav {
 .nav-item a{
     padding:10%;
     text-align:center;
+    text-decoration:none;
+    color:grey;
+    font-weight:400;
 }
 
 
 .nav-item:hover{
     background-color:#99B2FB;
+    font-weight:700;
 }
 
 
 .container-fluid{
     margin:0;
     padding:0;
-    background-color:#F0FDCA;
 }
 
 
 .jumbotron{
     margin:0px;
-    padding:5px;
+    padding-top:5px;
     height:805px;
     opacity:0.6;
     background-image:url(images/stones.jpg);
@@ -50,34 +54,33 @@ nav {
     /*z-index:-1;*/
 }
 
-.about, .skills, .projects, .contact{
+#about, #skills, #projects, #contact{
     margin:0;
     padding:10px;
-    height:805px;
+    height:50%;
 }
 
 h2{
     padding:5px;
     font-size:60px;
     font-weight:800;
+    text-align:center;
     text-transform:capitalize;
 }
 
 #home{
     margin:0px;
-    height:200px;
-    position:relative;
+    /*padding:10px;*/
+    /*height:200px;*/
+    /*position:relative;*/
     font-family: 'Dancing Script', cursive;
     font-size:60px;
-    color:grey;
+    color:darker;
+    text-shadow: 1px 1px 2px white, 0 0 1em blue, 0 0 0.2em blue;
     text-align:center;
-    top:15%;
-    left:20%;
     width:60%;
-    border-radius:50%;
+    border-radius:30px;
     background-color:rgba(255,255,255,0.6);
-
-
 }
 
 main{
@@ -90,6 +93,19 @@ img {
   width: 260px;
   height: 400px;
   object-fit:cover;
+  border-radius:10px;
+}
+
+.btn{
+    padding: 20px 40px;
+    font-size: 30px;
+    border-radius: 20px;
+}
+
+.carousel-link{
+    color:white;
+    font-weight:200;
+    text-decoration:none;
 }
 
 .contact-me{
