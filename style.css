@@ -10,20 +10,24 @@ html, body{
     margin:0px;
     padding:0px;
     font-family: 'IBM Plex Serif', serif;
-    color:silver;
+    font-weight:300;
+    color:#7C6C82;
     background-color:#F0FDCA;
 }
 
-h2{
-    padding:5px;
-    font-size:60px;
-    font-weight:800;
-    text-align:center;
-    text-transform:uppercase;
+section{
+    padding-top:30px;
+}
+
+h1{
+   padding:15px;
+   text-align:center;
+   font-weight:600;
 }
 
 #home, #about, #skills, #projects, #contact{
     margin:0;
+    
 }
 
 nav {
@@ -35,7 +39,6 @@ nav {
     padding:15px;
     text-align:center;
     text-decoration:none;
-    font-weight:400;
 }
 
 
@@ -47,7 +50,6 @@ nav {
 
 
 #home{
-    /*height:450px;*/
     background-image:url(images/stones.jpg);
     background-size:cover;
     background-repeat: no-repeat;
@@ -84,21 +86,13 @@ nav {
     background-image:url(images/contact-image.jpg);
     background-size:cover;
     background-attachment:fixed;
-    opacity:0.9;
 
 }
 
-/*.form-group{*/
-/*    width:30%;*/
-/*}*/
+#container-1{
+    background-color:rgba(255,255,255,0.7);
+}
 
-/*.container{*/
-/*    padding-bottom:3px*/
-/*}*/
-
-/*#container-1{*/
-/*    background-color:rgba(255,255,255,0.6);*/
-/*}*/
 
 
 /*footer{*/
@@ -116,9 +110,12 @@ nav {
 /*Extra small devices (portrait phones, less than 576px)*/
 
 
-/*Small devices (landscape phones, 576px and up)*/
-/*@media (min-width: 576px) {*/
-/*}*/
+/*Small devices (landscape phones, 576px and below)*/
+@media (max-width: 576px) {
+    /*p{*/
+    /*    font-size:12px;*/
+    /*}*/
+}
 
 /*Medium devices (tablets, 768px and up)*/
 /*@media (min-width: 768px) { ... }*/
