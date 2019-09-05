@@ -32,6 +32,7 @@ This section is featured by a Bootstrap jumbotron. It contains a hero image, whi
 https://www.pexels.com/photo/row-of-black-and-gray-polished-pebble-on-gray-surface-940271/
 
 The motto "Stepping stones pebble milestones. Milestones mine gemstones." was created by myself. The idea was inspired on the thought of taking small steps at a time to achieve greater goals. The text shadow feature was incorporated from the website: https://developer.mozilla.org/en-US/docs/Web/CSS/text-shadow
+A screenshot of the coding is available here: https://github.com/amcali/project-1/issues/1
 
 The hero image and the motto aims to give the user an idea of my persona.
 The intention of using the jumbotron was to give the website the ability to be mobile responsive; as a homepage, the image was to act as a home screen.
