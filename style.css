@@ -9,6 +9,7 @@
 html, body{
     margin:0;
     padding:0;
+    width:100vw;
     font-family: 'IBM Plex Serif', serif;
     color:silver;
     background-color:#F0FDCA;
@@ -24,62 +25,60 @@ h2{
 
 #home, #about, #skills, #projects, #contact{
     margin:0;
-    padding:30px;
-    width:100vw;
 }
 
-nav {
-    margin:0px;
-    background-color:#CAD7FD;
-    background-attachment:fixed;
-}
+/*nav {*/
+/*    margin:0px;*/
+/*    background-color:#CAD7FD;*/
+/*    background-attachment:fixed;*/
+/*}*/
 
-.nav-item a{
-    padding:15px;
-    text-align:center;
-    text-decoration:none;
-    color:grey;
-    font-weight:400;
-}
-
-
-.nav-item:hover{
-    background-color:#99B2FB;
-    font-weight:700;
-}
+/*.nav-item a{*/
+/*    padding:15px;*/
+/*    text-align:center;*/
+/*    text-decoration:none;*/
+/*    color:grey;*/
+/*    font-weight:400;*/
+/*}*/
 
 
-.container-fluid{
-    margin:0;
-    padding:0;
-}
+/*.nav-item:hover{*/
+/*    background-color:#99B2FB;*/
+/*    font-weight:700;*/
+/*}*/
+
+
+/*.container-fluid{*/
+/*    margin:0;*/
+/*    padding:0;*/
+/*}*/
 
 
 
-.jumbotron, .jumbotron-fluid{
-    margin:0;
-    height:450px;
-    background-image:url(images/stones.jpg);
-    background-size:cover;
-    background-repeat: no-repeat;
-    background-position:center;
-    background-attachment:fixed;
-}
+/*.jumbotron, .jumbotron-fluid{*/
+/*    margin:0;*/
+/*    height:450px;*/
+/*    background-image:url(images/stones.jpg);*/
+/*    background-size:cover;*/
+/*    background-repeat: no-repeat;*/
+/*    background-position:center;*/
+/*    background-attachment:fixed;*/
+/*}*/
 
-#motto{
-    margin:0px;
-    position:absolute;
-    top:20%;
-    left:10%;
-    font-family: 'Dancing Script', cursive;
-    font-size:60px;
-    color:white;
-    text-shadow: 1px 1px 2px white, 0 0 1em blue, 0 0 0.2em blue;
-    text-align:center;
+/*#motto{*/
+/*    margin:0px;*/
+/*    position:absolute;*/
+/*    top:20%;*/
+/*    left:10%;*/
+/*    font-family: 'Dancing Script', cursive;*/
+/*    font-size:60px;*/
+/*    color:white;*/
+/*    text-shadow: 1px 1px 2px white, 0 0 1em blue, 0 0 0.2em blue;*/
+/*    text-align:center;*/
     /*width:60%;*/
     /*border-radius:30px;*/
     /*background-color:rgba(255,255,255,0.6);*/
-}
+/*}*/
 
 
 
@@ -92,72 +91,72 @@ nav {
 /*    height:810px;*/
 /*}*/
 
-#my-photo {
-  width: 260px;
-  height: 400px;
-  object-fit:cover;
-  border-radius:10px;
-}
+/*#my-photo {*/
+/*  width: 260px;*/
+/*  height: 400px;*/
+/*  object-fit:cover;*/
+/*  border-radius:10px;*/
+/*}*/
 
 .btn{
-    padding: 20px 40px;
-    font-size: 30px;
+    padding: 15px 10px;
+    font-size: 25px;
     border-radius: 20px;
 }
 
-.carousel-link{
-    color:white;
-    font-weight:200;
-    text-decoration:none;
-}
+/*.carousel-link{*/
+/*    color:white;*/
+/*    font-weight:200;*/
+/*    text-decoration:none;*/
+/*}*/
 
-.contact-me{
-    margin:0;
-    padding:0;
-    height:810px;
-    background-image:url(images/contact-image.jpg);
-    background-size:cover;
-    background-attachment:fixed;
-    opacity:0.9;
-    z-index:-1;
-}
+/*.contact-me{*/
+/*    margin:0;*/
+/*    padding:0;*/
+/*    height:810px;*/
+/*    background-image:url(images/contact-image.jpg);*/
+/*    background-size:cover;*/
+/*    background-attachment:fixed;*/
+/*    opacity:0.9;*/
+/*    z-index:-1;*/
+/*}*/
 
-.form-group{
-    width:30%;
-}
+/*.form-group{*/
+/*    width:30%;*/
+/*}*/
 
-.container{
-    padding-bottom:3px
-}
+/*.container{*/
+/*    padding-bottom:3px*/
+/*}*/
 
-#container-1{
-    background-color:rgba(255,255,255,0.6);
-}
+/*#container-1{*/
+/*    background-color:rgba(255,255,255,0.6);*/
+/*}*/
 
 
-footer{
-    margin:0;
-    padding:0px;
-    background-color:#CAD7FD;
-    height:20px;
-}
+/*footer{*/
+/*    margin:0;*/
+/*    padding:0px;*/
+/*    background-color:#CAD7FD;*/
+/*    height:20px;*/
+/*}*/
 
-.footer-icon>i{
-    height:40px;
-}
+/*.footer-icon>i{*/
+/*    height:40px;*/
+/*}*/
 
 
 /*Extra small devices (portrait phones, less than 576px)*/
 
 
 /*Small devices (landscape phones, 576px and up)*/
-@media (min-width: 576px) { ... }
+/*@media (min-width: 576px) { ... }*/
 
 /*Medium devices (tablets, 768px and up)*/
-@media (min-width: 768px) { ... }
+/*@media (min-width: 768px) { ... }*/
 
 /*Large devices (desktops, 992px and up)*/
-@media (min-width: 992px) { ... }
+/*@media (min-width: 992px) { ... }*/
 
 /*Extra large devices (large desktops, 1200px and up)*/
-@media (min-width: 1200px) { ... }
+/*@media (min-width: 1200px) { ... }*/

@@ -1,130 +1,105 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    
-    <!--Bootstrap CSS-->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"><link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
-    <!--<link href="https://fonts.googleapis.com/css?family=Dancing+Script&display=swap" rel="stylesheet">  <!--google fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Dancing+Script&display=swap" rel="stylesheet">  <!--Jumbotron font style-->
     <link href="style.css" rel="stylesheet" type=text/css />
     
-    <style>
-        @import url('https://fonts.googleapis.com/css?family=Dancing+Script&display=swap');
-        @import url('https://fonts.googleapis.com/css?family=IBM+Plex+Serif&display=swap');
-    </style>
+    <title>Portfolio</title>
+  </head>
+  <body>
+
+    <!--Nav Bar-->
+    <nav class="nav nav-pills nav-fill">
+      <a class="nav-item nav-link active" href="#home">Home</a>
+      <a class="nav-item nav-link" href="#about">About</a>
+      <a class="nav-item nav-link" href="#skills">Skills</a>
+      <a class="nav-item nav-link" href="#projects">Projects</a>
+      <a class="nav-item nav-link" href="#contact">Contact</a>
+      <a class="nav-item nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+    </nav>
     
-    <title>Portfolio - Arwa Ali</title>
+    
+    <!--Home Section-->
+    <div class="jumbotron jumbotron-fluid" id="home">
+    <div class="container">
+      <h1 class="display-4">Fluid jumbotron</h1>
+      <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
+    </div>
+    </div>
+    
+    <div class="container-fluid m-0 p-0">
     
 
-</head>
-<body>
-        <nav class="container-fluid fixed-top p-1">
-            <ul class="nav nav-pills nav-fill">
-                <li class="col-2 nav-item">
-                    <a class="nav-link" href="#home">Home</a>
-                </li>
-                <li class="col-2 nav-item">
-                    <a class="nav-link" href="#about">About</a>
-                </li>
-                <li c
-                <li class="col-2 nav-item">
-                    <a class="nav-link" href="#skills">Skills</a>
-                </li>
-                <li class="col-2 nav-item">
-                  <a class="nav-link" href="#projects">Projects</a>
-                </li>
-                <li class="col-2 nav-item">
-                    <a class="nav-link" href="#contact">Contact</a>
-                </li>
-            </ul>
-        </nav>
+    
+      <!--About Me-->
+      <section id="about">
+        <h1>About Me</h1>
         
-        <!--<main>-->
+        <div class="container">
+          <div class="row justify-content-center border border-1">
+            <div class="col-4 justtify-content-center border border-1">
+              My name is Arwa. I am a Software Development student at Code Institute.
+              In my free time, I like to explore different languages on my laptop, 
+              or brewing up food concoctions in the kitchen.
+            </div>
+            <div class="col-4 border border-1">
+              <img src="images/portrait-photo.jpg" alt="..." class="img-thumbnail">
+            </div>
+          </div>
+        </div>
         
-        <!--<div class="container-fluid">-->
-            <!--Home Section -->
-              <div class="jumbotron jumbotron-fluid" id="home">
-                <div class="container col-12 text-center" id="motto">
-                  "Stepping stones pebble milestones. Milestones mine gemstones."
-                </div>
+      </section>
+      
+      <!--My Skills-->
+      <section id="skills">
+        <h1>My Skills</h1>.
+        
+        <div class="container">
+            <div class="row align-items-center p-2">
+              <div class="col">
+                <a class="btn btn-outline-danger" href="https://en.wikipedia.org/wiki/HTML" target="_blank" role="button">HTML</a>
               </div>
-
-            <!--About Section -->
-            <div class="container-fluid p-1" id="about">
-                <h2>About</h2>
-                <div class="d-flex flex-row justify-content-center">
-                    <div class="col-4 text-center p-4" id="about-info">
-                      <div class="row align-items-center">
-                        <br><br><br>
-                        <p>
-                          My name is Arwa. I am a Software Development student at Code Institute.
-                          In my free time, I like to explore different languages on my laptop, 
-                          or brewing up food concoctions in the kitchen.
-                        </p>
-                      </div>
-                      
-                      <div class="row align-items-center">
-                        <p>
-                            This site is to lay out a niche for me to portray my works inspired by my curiosity.
-                        </p>
-                      </div>
-                    </div>
-                    <div class="col-4" id="self-image">
-                       <img id="my-photo" src="images/portrait-photo.jpg" alt="my photo"> 
-                    </div>
-                </div>
+              <div class="col">
+                <a class="btn btn-outline-primary" href="https://en.wikipedia.org/wiki/Cascading_Style_Sheets" target="_blank" role="button">CSS</a>
+              </div>
+              <div class="col">
+                <a class="btn btn-outline-dark" href="https://en.wikipedia.org/wiki/Bootstrap_(front-end_framework)" target="_blank" role="button">Bootstrap</a>
+              </div>
             </div>
             
-            <!--Skills Section-->
-            <div class="container-fluid p-20" id="skills">
-
-            		<div>
-                    <h2>Skills</h2>
-            		</div>
-            		
-                  <div class="d-flex-align-items justify-content-around">
-                    <div class="row p-1 justify-content-around">
-                      <div class="p-2">
-                        <a class="btn btn-outline-danger" href="https://en.wikipedia.org/wiki/HTML" target="_blank" role="button">HTML</a>
-                      </div>
-                      <div class="p-2">
-                        <a class="btn btn-outline-primary" href="https://en.wikipedia.org/wiki/Cascading_Style_Sheets" target="_blank" role="button">CSS</a>
-                      </div>
-                      <div class="p-2">
-                        <a class="btn btn-outline-dark" href="https://en.wikipedia.org/wiki/Bootstrap_(front-end_framework)" target="_blank" role="button">Bootstrap</a>
-                      </div>
-                    </div>
-                    <div class="row p-1 justify-content-around">
-                      <div class="p-2">
-                        <a class="btn btn-outline-info" href="https://en.wikipedia.org/wiki/Java_(programming_language)" target="_blank" role="button">Java</a>
-                      </div>
-                      <div class="p-2">
-                        <a class="btn btn-outline-secondary" href="https://en.wikipedia.org/wiki/JavaScript" target="_blank" role="button">JavaScript</a>
-                      </div>
-                      <div class="p-2">
-                        <a class="btn btn-outline-info" href="https://en.wikipedia.org/wiki/SQL" target="_blank" role="button">SQL</a>
-                      </div>
-                    </div>
-                  </div>
-            	</div>
-            </div>
-            
-            <!--Projects Section-->
-            <div class="container-fluid p-30" id="projects">
-              <div class="row justify-content-center">
-                 <h2>Projects</h2>
+            <div class="row align-items-center">
+              <div class="col">
+                <a class="btn btn-outline-info" href="https://en.wikipedia.org/wiki/Java_(programming_language)" target="_blank" role="button">Java</a>
               </div>
-            
-              <div class="row justify-content-around">
+              <div class="col">
+                <a class="btn btn-outline-secondary" href="https://en.wikipedia.org/wiki/JavaScript" target="_blank" role="button">JavaScript</a>
+              </div>
+              <div class="col">
+                <a class="btn btn-outline-info" href="https://en.wikipedia.org/wiki/SQL" target="_blank" role="button">SQL</a>
+              </div>
+            </div>
+        </div>
+        
+      </section>
+      
+      <!--My Projects-->
+      <section id="projects">
+        <h1>My Projects</h1>
+        
+                      <div class="row justify-content-around">
                 <div class="col-3">
             
                   <div class="card" style="width: 18rem;">
-                  <img src="..." class="card-img-top" alt="...">
+                  <img src="images/draw.jpg" class="card-img-top" alt="Learn To Draw">
                   <div class="card-body">
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a class="carousel-link" href="https://www.drawinghowtodraw.com/stepbystepdrawinglessons/" target="_blank" style="color:silver;">Learn to Draw</a>
                   </div>
             
                 </div>
@@ -133,9 +108,9 @@
                 <div class="col-3">
             
                   <div class="card" style="width: 18rem;">
-                  <img src="..." class="card-img-top" alt="...">
+                  <img src="images/book.jpg" class="card-img-top" alt="Freelance Writing">
                   <div class="card-body">
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a class="carousel-link" href="https://elnacain.com/blog/getting-started-freelance-writing/" target="_blank" style="color:silver;">Learn freelance writing</a>
                   </div>
             
                 </div>
@@ -145,88 +120,73 @@
                 <div class="col-3">
             
                   <div class="card" style="width: 18rem;">
-                  <img src="..." class="card-img-top" alt="...">
+                  <img src="images/food.jpg" class="card-img-top" alt="Cooking Recipes">
                   <div class="card-body">
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a class="carousel-link" href="https://www.goodfood.com.au/recipes/recipe-collections" target="_blank" style="color:silver;">Collection of Cooking Recipes</a>
                   </div>
             
                 </div>
                 </div>
               </div>
-            </div>
-            
-            <!--Contact Me-->
-            <div class="container-fluid p-1" id="contact">
-              <div class="contact-me">
-                  <div class="col">
-                    
-                    <div class="col py-3 justify-content-center">
-                      <h2>Contact Me</h2>
-                    </div>
-                    
-                    <div class="container" id="container-1">
-                      <div class="col py-5 justify-content-center">
-                        <p>
-                          Feel free to leave a comment or if you would like to get in touch with me for any collaborations:
-                        </p>
-                      </div>
-                      
-                      <div class="container" id="container-2 justify-content-center">
-                        <form>                      
-                          <div class="row px-4 d-inline justify-content-start form-group">
-                            <div>
-                              <label for="name">Name:</label>
-                              <input type="text" id="name" placeholder="Enter your name">
-                            </div>
-                          </div>
-                          
-                          <div class="row px-4 d-inline justify-content-start form-group">
-                            <div>
-                              <label for="email">Email Address:</label>
-                              <input type="email" class="form-control" id="email" aria-describedby="email" placeholder="john.doe@abcdmail.com">
-                            </div>
-                          </div>
-                          
-                          <div class="col justify-content-start form-group">
-                            <div>
-                              <label for="textarea">Message:</label>
-                              <textarea class="form-control" id="message" rows="10"></textarea>
-                            </div>
-                          </div>
-                          
-                          <div class="col justify-content-start form-group">
-                            <button type="submit" class="btn btn-secondary">Send</button>
-                          </div>
-                        </form>
-                      </div>
-                      
-                    </div>
-                  </div>
-              </div>
-            </div>
+        
+      </section>
+      
+      <!--Contact Me-->
+      <section id="contact">
+        <h1>Contact Me</h1>
+        
+        <div class="container">
 
-    <!--</main>-->
-    <footer class="fixed-bottom">
-        <div class="footer p-2">
-            <a class="footer-icon" id="linkedin" href="http://www.linkedin.com" target="_blank">
-                <i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i>
-            </a>
-            
-            <a class="footer-icon" id="facebook" href="http://www.facebook.com target="_blank">
-                <i class="fa fa-facebook-official fa-2x" aria-hidden="true"></i>
-            </a>
-            
-            <a class="footer-icon" id="instagram" href="http://www.instagram.com" target="_blank">
-                <i class="fa fa-instagram fa-2x" aria-hidden="true"></i>
-            </a>
+          <!-- Columns start at 50% wide on mobile and bump up to 33.3% wide on desktop -->
+          <div class="row">
+            <div class="col-8 col-md-6">Feel free to leave a comment or if you would like to get in touch with me for any collaborations:</div>
+          </div>
+          
+          <div class="row">
+            <form>
+              <div class="form-group col-6">
+                    <label for="name-field">Name:</label>
+                    <textarea class="form-control" id="name-field" rows="1"></textarea>
+              </div>
+              <div class="form-group col-6 col-sm-8">
+                    <label for="email-field">Email address:</label>
+                    <input type="email" class="form-control" id="email-field" aria-describedby="emailHelp" placeholder="Enter email">
+              </div>
+              <div class="form-group col-6 col-sm-8">
+                  <label for="exampleFormControlTextarea1">Example textarea</label>
+                  <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+              </div>
+            </form>
+          </div>
+          
+      </section>
+    
+    </div>
+    
+    <footer class="container-fluid">
+        <div class="row d-flex justify-content-center">
+            <div class="m-1">
+              <a class="footer-icon" id="linkedin" href="http://www.linkedin.com" target="_blank">
+                  <i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i>
+              </a>
+            </div>
+            <div class="m-1">
+              <a class="footer-icon" id="facebook" href="http://www.facebook.com target="_blank">
+                  <i class="fa fa-facebook-official fa-2x" aria-hidden="true"></i>
+              </a>
+            </div>
+            <div class="m-1">
+              <a class="footer-icon" id="instagram" href="http://www.instagram.com" target="_blank">
+                  <i class="fa fa-instagram fa-2x" aria-hidden="true"></i>
+              </a>
+            </div>
         </div>
     </footer>
 
-    
+    <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>    
-</body>
-
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
 </html>
