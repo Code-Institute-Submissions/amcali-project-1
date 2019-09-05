@@ -31,7 +31,7 @@ The navigation bar has been placed to stay at the top of the webpage. The links 
 This section is featured by a Bootstrap jumbotron. It contains a hero image, which was taken from pexels: 
 https://www.pexels.com/photo/row-of-black-and-gray-polished-pebble-on-gray-surface-940271/
 
-The motto "Stepping stones pebble milestones. Milestones mine gemstones." was created by myself. The idea was inspired on the thought of taking small steps at a time to achieve greater goals.
+The motto "Stepping stones pebble milestones. Milestones mine gemstones." was created by myself. The idea was inspired on the thought of taking small steps at a time to achieve greater goals. The text shadow feature was incorporated from the website: https://developer.mozilla.org/en-US/docs/Web/CSS/text-shadow
 
 The hero image and the motto aims to give the user an idea of my persona.
 The intention of using the jumbotron was to give the website the ability to be mobile responsive; as a homepage, the image was to act as a home screen.
@@ -57,6 +57,7 @@ I used the Boostrap feature of columns and rows to ensure the section could adap
 ###My Skills###
 
 This section used Bootstrap buttons and had been linked with anchors to the respective explanation of the software skill stated.
+The purpose of this was to serve to users who are not familiar with software skills what each of the skills were.
 The links were all taken from Wikipedia website:
 
 * HTML: https://en.wikipedia.org/wiki/HTML
@@ -66,8 +67,32 @@ The links were all taken from Wikipedia website:
 * JavaScript: https://en.wikipedia.org/wiki/JavaScript
 * SQL: https://en.wikipedia.org/wiki/SQL
 
+The buttons were arranged into rows and columns which used Boostrap, as it helped to incorporate media responsive design to the section:
+
+        <div class="row align-items-center p-2">
+          
+          <div class="p-2 col">
+            <a class="btn btn-outline-danger" href="https://en.wikipedia.org/wiki/HTML" target="_blank" role="button">HTML</a>
+          </div>
+          <div class="p-2 col">
+            <a class="btn btn-outline-primary" href="https://en.wikipedia.org/wiki/Cascading_Style_Sheets" target="_blank" role="button">CSS</a>
+          </div>
+          <div class="p-2 col">
+            <a class="btn btn-outline-dark" href="https://en.wikipedia.org/wiki/Bootstrap_(front-end_framework)" target="_blank" role="button">Bootstrap</a>
+          </div>
+          <div class="p-2 col">
+            <a class="btn btn-outline-info" href="https://en.wikipedia.org/wiki/Java_(programming_language)" target="_blank" role="button">Java</a>
+          </div>
+          <div class="p-2 col">
+            <a class="btn btn-outline-secondary" href="https://en.wikipedia.org/wiki/JavaScript" target="_blank" role="button">JavaScript</a>
+          </div>
+          <div class="p-2 col">
+            <a class="btn btn-outline-info" href="https://en.wikipedia.org/wiki/SQL" target="_blank" role="button">SQL</a>
+          </div>
+
 
 ###My Projects###
+
 
 ###Contact Me###
 
@@ -86,10 +111,12 @@ https://www.pexels.com/photo/black-ball-point-pen-with-brown-spiral-notebook-733
 3. Bootstrap 4
 
 I used the following websites to aid me with my project: and to adapt codes, links and features:
-Bootstrap library and template codes: https://getbootstrap.com
+Bootstrap library and template codes: https://getbootstrap.com https://mdbootstrap.com
 HTML and CSS examples and code: https://www.w3schools.com
 Images used in for the website background-images, jumbotron, cards featured in "My Project" section: https://www.pexels.com
 Image used in "About Me" section was taken from my personal LinkedIn profile: https://www.linkedin.com/in/arwa-mc-ali
+Colours chosen for the website: https://www.canva.com/colors/color-wheel/ https://coolors.co/
+
 
 
 ##Features Left To Implement##
