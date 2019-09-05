@@ -56,6 +56,17 @@ I used the Boostrap feature of columns and rows to ensure the section could adap
 
 ###My Skills###
 
+This section used Bootstrap buttons and had been linked with anchors to the respective explanation of the software skill stated.
+The links were all taken from Wikipedia website:
+
+* HTML: https://en.wikipedia.org/wiki/HTML
+* CSS: https://en.wikipedia.org/wiki/Cascading_Style_Sheets
+* Bootstrap: https://en.wikipedia.org/wiki/Bootstrap_(front-end_framework)
+* Java: https://en.wikipedia.org/wiki/Java_(programming_language)
+* JavaScript: https://en.wikipedia.org/wiki/JavaScript
+* SQL: https://en.wikipedia.org/wiki/SQL
+
+
 ###My Projects###
 
 ###Contact Me###
@@ -91,6 +102,14 @@ Image used in "About Me" section was taken from my personal LinkedIn profile: ht
 
 
 ##Deployment##
+
+##Credits##
+
+###Content###
+
+###Media###
+
+###Acknowledgement###
 
 
 
