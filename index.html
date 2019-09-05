@@ -16,22 +16,20 @@
   <body>
 
     <!--Nav Bar-->
-    <nav class="nav nav-pills nav-fill">
-      <a class="nav-item nav-link active" href="#home">Home</a>
+    <nav class="nav nav-pills nav-fill fixed-top">
+      <a class="nav-item nav-link" href="#home">Home</a>
       <a class="nav-item nav-link" href="#about">About</a>
       <a class="nav-item nav-link" href="#skills">Skills</a>
       <a class="nav-item nav-link" href="#projects">Projects</a>
       <a class="nav-item nav-link" href="#contact">Contact</a>
-      <a class="nav-item nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
     </nav>
     
     
     <!--Home Section-->
-    <div class="jumbotron jumbotron-fluid" id="home">
-    <div class="container">
-      <h1 class="display-4">Fluid jumbotron</h1>
-      <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
-    </div>
+    <div class="jumbotron jumbotron-fluid position-relative vh-100" id="home">
+      <div class="container justify-content-center">
+        <h1 class="display-4" id="motto">"Stepping stones pebble milestones. Milestones mine gemstones."</h1>
+      </div>
     </div>
     
     <div class="container-fluid m-0 p-0">
@@ -42,7 +40,7 @@
       <section id="about">
         <h1>About Me</h1>
         
-        <div class="container">
+        <div class="container position-relative mt-2 min-vh-100">
           <div class="row justify-content-center border border-1">
             <div class="col-4 justtify-content-center border border-1">
               My name is Arwa. I am a Software Development student at Code Institute.
@@ -58,7 +56,7 @@
       </section>
       
       <!--My Skills-->
-      <section id="skills">
+      <section class="position-relative mt-2 vh-100" id="skills">
         <h1>My Skills</h1>.
         
         <div class="container">
