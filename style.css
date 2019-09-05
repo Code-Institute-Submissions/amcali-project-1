@@ -16,7 +16,8 @@ html, body{
 }
 
 section{
-    padding-top:30px;
+    padding-top:40px;
+    padding-bottom:40px;
 }
 
 h1{
@@ -95,33 +96,18 @@ nav {
 
 
 
-/*footer{*/
-/*    margin:0;*/
-/*    padding:0px;*/
-/*    background-color:#CAD7FD;*/
-/*    height:20px;*/
-/*}*/
-
-/*.footer-icon>i{*/
-/*    height:40px;*/
-/*}*/
-
-
-/*Extra small devices (portrait phones, less than 576px)*/
-
-
-/*Small devices (landscape phones, 576px and below)*/
-@media (max-width: 576px) {
-    /*p{*/
-    /*    font-size:12px;*/
-    /*}*/
+footer{
+    margin:0;
+    padding:0px;
+    background-color:#CAD7FD;
+    height:20px;
 }
 
-/*Medium devices (tablets, 768px and up)*/
-/*@media (min-width: 768px) { ... }*/
-
-/*Large devices (desktops, 992px and up)*/
-/*@media (min-width: 992px) { ... }*/
-
-/*Extra large devices (large desktops, 1200px and up)*/
-/*@media (min-width: 1200px) { ... }*/
+/*// Extra small devices (portrait phones, less than 576px)*/
+/*@media (max-width: 575.98px) { */
+/*    #contact{*/
+/*        padding-top:80px;*/
+/*        padding-bottom:0px;*/
+/*    }*/
+    
+/*}*/

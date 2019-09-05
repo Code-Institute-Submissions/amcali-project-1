@@ -45,10 +45,10 @@
     <section id="about">
       <h1>About Me</h1>
       <div class="row justify-content-center">
-        <div class="col-sm-3 col-md-5 col-lg-4 pt-md-3 pt-lg-5 justify-items-center" style="text-align:center;">
+        <div class="col-sm-3 col-md-5 col-lg-4 pt-md-3 pt-lg-5 justify-items-center" style="text-align:center; word-spacing:5px;">
             My name is Arwa. I am a Software Development student at Code Institute. In my free time, I like to explore different languages on my laptop, or brewing up food concoctions in the kitchen.
         </div>
-        <div class="col-sm-2 col-md-5 col-lg-4">
+        <div class="col-sm-4 col-md-5 col-lg-4">
           <img src="images/portrait-photo.jpg" class="img-thumbnail">
         </div>
       </div>
@@ -133,9 +133,9 @@
 
       <div class="container" id="container-1">
 
-          <div class="row text-left">Feel free to leave a comment or if you would like to get in touch with me for any collaborations:</div>
+          <div class="row p-4 text-left">Feel free to leave a comment or if you would like to get in touch with me for any collaborations:</div>
 
-          <form>
+          <form method="get" action="thank-you.html" target="_blank">
             <div class="form-group col-6">
               <label for="name-field">Name:</label>
               <textarea class="form-control" id="name-field" rows="1"></textarea>
@@ -145,33 +145,42 @@
               <input type="email" class="form-control" id="email-field" aria-describedby="emailHelp" placeholder="Enter email">
             </div>
             <div class="form-group col-6 col-sm-8">
-              <label for="exampleFormControlTextarea1">Example textarea</label>
-              <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+              <label for="message">Message:</label>
+              <textarea class="form-control" id="message" rows="3"></textarea>
             </div>
+            <button class="btn btn-secondary" type="submit">Submit </button>
           </form>
+          
+          <div class="row p-4 text-left">Alternatively, connect with me via the following:</div>
+          
+          <div class="row d-flex align-content-left">
+          <div class="col m-1">
+            <span>Linkedin:</span>
+            <a class="icon" id="linkedin" href="http://www.linkedin.com" target="_blank">
+                  <i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i>
+            </a>
+          </div>
+          
+          <div class="col m-1">
+            <span>Facebook:</span>
+              <a class="footer-icon" id="facebook" href="http://www.facebook.com target=" _blank ">
+              <i class="fa fa-facebook-official fa-2x " aria-hidden="true "></i>
+              </a>
+          </div>
+          <div class="col m-1">
+            <span>Instagram:</span>
+              <a class="footer-icon " id="instagram " href="http://www.instagram.com " target="_blank ">
+              <i class="fa fa-instagram fa-2x " aria-hidden="true "></i>
+              </a>
+          </div>
+          </div>
 
     </section>
 
     </div>
 
-    <footer class="container-fluid">
-      <div class="row d-flex justify-content-center">
-        <div class="m-1">
-          <a class="footer-icon" id="linkedin" href="http://www.linkedin.com" target="_blank">
-                  <i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i>
-              </a>
-        </div>
-        <div class="m-1">
-          <a class="footer-icon" id="facebook" href="http://www.facebook.com target=" _blank ">
-                  <i class="fa fa-facebook-official fa-2x " aria-hidden="true "></i>
-              </a>
-            </div>
-            <div class="m-1 ">
-              <a class="footer-icon " id="instagram " href="http://www.instagram.com " target="_blank ">
-                  <i class="fa fa-instagram fa-2x " aria-hidden="true "></i>
-              </a>
-            </div>
-        </div>
+    <footer class="container-fluid fixed-bottom">
+
     </footer>
 
     <!-- Optional JavaScript -->
