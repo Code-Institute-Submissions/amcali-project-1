@@ -169,8 +169,8 @@ All contents written on the webpage were written by me.
 Aside from numerous third party websites giving me inspirations, I would like to particularly mention https://christyannejones.com which gave me a basis of starting my webpage.
 
 ### Media ###
-All photos were taken from [Pexels https://www.pexels.com], and [my LinkedIn Account] (https://www.linkedin.com/in/arwa-mc-ali).
-All graphic icons used were taken from [Font Awesome] (https://fontawesome.com/v4.7.0/).
+All photos were taken from Pexels: https://www.pexels.com, and my LinkedIn Account: https://www.linkedin.com/in/arwa-mc-ali.
+All graphic icons used were taken from Font Awesome: https://fontawesome.com/v4.7.0/.
 
 
 ### Acknowledgement ###
