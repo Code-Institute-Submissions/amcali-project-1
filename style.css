@@ -1,24 +1,23 @@
 
-/*
-    monochromatic colors: #CAD7FD=lighter purple #99B2FB=darker purple
-    #FDF0CA=light peach; complementary color=#CAD7FD (purple like)
-    analogous: #FDF0CA= light peach #F0FDCA=light green #FDD7CA=light pink
-    #FDF0CA=lighter peach #FBE299=darker peach
-*/
-
+/*Font and webpage background colour*/
 html, body{
     margin:0px;
     padding:0px;
     font-family: 'IBM Plex Serif', serif;
+    font-size:20px;
     font-weight:300;
     color:#7C6C82;
     background-color:#F0FDCA;
 }
 
+
+/*Ensure spacing between different sections*/
 section{
-    padding-top:40px;
+    margin:0;
     padding-bottom:40px;
+    padding-left:15px;
 }
+
 
 h1{
    padding:15px;
@@ -26,18 +25,21 @@ h1{
    font-weight:600;
 }
 
+
 #home, #about, #skills, #projects, #contact{
     margin:0;
-    
 }
+
 
 nav {
     margin:0px;
     background-color:#CAD7FD;
 }
 
+
 .nav-item a{
     padding:15px;
+    font-size: 30px;
     text-align:center;
     text-decoration:none;
 }
@@ -49,25 +51,29 @@ nav {
 }
 
 
-
 #home{
     background-image:url(images/stones.jpg);
+    height:100vh;
+    position:relative;
+    opacity:0.65;
     background-size:cover;
-    background-repeat: no-repeat;
     background-position:center;
+    background-repeat: no-repeat;
     background-attachment:fixed;
 }
 
-#motto{
+
+.motto{
     margin:0px;
     position:absolute;
-    top:20%;
-    left:10%;
+    left:0;
+    top:50%;
+    width:100%;
     font-family: 'Dancing Script', cursive;
     color:white;
+    letter-spacing:10px;
     text-shadow: 1px 1px 2px white, 0 0 1em blue, 0 0 0.2em blue;
     text-align:center;
-    width:60%;
     border-radius:30px;
     background-color:rgba(255,255,255,0.6);
 }
@@ -90,6 +96,9 @@ nav {
 
 }
 
+
+
+/*Background colour of form in "Contact Me" section*/
 #container-1{
     background-color:rgba(255,255,255,0.7);
 }
@@ -103,11 +112,75 @@ footer{
     height:20px;
 }
 
-/*// Extra small devices (portrait phones, less than 576px)*/
-/*@media (max-width: 575.98px) { */
-/*    #contact{*/
-/*        padding-top:80px;*/
-/*        padding-bottom:0px;*/
-/*    }*/
+
+
+
+
+ /*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+    body,html{
+        font-size: 6px;
+    }
     
-/*}*/
+    .nav-item a{
+        padding:5px;
+        font-size: 8px;
+    }
+    #contact h1{
+    padding-top:20px;
+}
+
+}
+
+        
+/*Small devices (landscape phones, less than 768px)*/
+@media (min-width: 575.99px) and (max-width: 767.98px) {
+        body,html{
+        font-size: 10px;
+    }
+    
+    #about, #skills, #projects{
+    padding-top:20px;
+}
+    
+    #contact{
+    padding-top:30px;
+}
+    
+}
+
+/*Medium devices (tablets, less than 992px)*/
+@media (min-width: 767.99px) and (max-width: 991.98px) { 
+        body,html{
+        font-size:12px;
+    }
+
+    #about, #skills, #projects{
+    padding-top:30px;
+}
+
+    #contact{
+    padding-top:40px;
+}
+    
+    
+}
+
+/*Large devices (desktops, less than 1200px)*/
+@media (min-width: 991.99px) and (max-width: 1199.98px) {
+        body,html{
+        font-size:15px;
+    }
+
+    #about, #skills, #projects{
+    padding-top:40px;
+}
+    
+    #contact{
+    padding-top:50px;
+}
+    
+}
+
+/*// Extra large devices (large desktops)*/
+/*// No media query since the extra-large breakpoint has no upper bound on its width*/

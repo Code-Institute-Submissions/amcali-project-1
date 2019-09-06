@@ -6,7 +6,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-  <!-- Bootstrap CSS -->
+  <!-- Bootstrap Font Awesome & CSS -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
   <link href="https://fonts.googleapis.com/css?family=Dancing+Script&display=swap" rel="stylesheet">
@@ -28,62 +28,81 @@
   </nav>
 
 
-  <div class="container-fluid m-0 p-0 align-items-center">
+  <div class="container-fluid m-0 p-0 align-items-center"> 
 
 
     <!--Home Section-->
-    <div class="jumbotron jumbotron-fluid position-relative vh-100" id="home">
-      <div class="container justify-content-center">
-        <h2 class="display-4" id="motto">"Stepping stones pebble milestones. Milestones mine gemstones."</h2>
-      </div>
-    </div>
+    <!--<div class="jumbotron jumbotron-fluid" id="home"> <!--sm-vh-30 md-vh-60 lg-vh-100 -->-->
+    <!--  <div class="container justify-content-center">-->
+    <!--    <h2 class="display-4" id="motto">"Stepping stones pebble milestones. Milestones mine gemstones."</h2>-->
+    <!--  </div>-->
+    <!--</div>-->
+        
+        <section id="home">
+          <div class="motto">
+            <h2>
+              Stepping stones pebble milestones. 
+            </h2>
+            <br>
+            <h2>
+              Milestones mine gemstones.
+            </h2>
+          </div>
+        </section>
 
-
-    
 
     <!--About Me-->
-    <section id="about">
+    <section id="about" class="height:100px;">
       <h1>About Me</h1>
       <div class="row justify-content-center">
-        <div class="col-sm-3 col-md-5 col-lg-4 pt-md-3 pt-lg-5 justify-items-center" style="text-align:center; word-spacing:5px;">
-            My name is Arwa. I am a Software Development student at Code Institute. In my free time, I like to explore different languages on my laptop, or brewing up food concoctions in the kitchen.
+        <div class="col-sm-3 col-md-5 col-lg-4 pt-md-3 pt-lg-5 justify-items-center" style="text-align:center;">
+            <p> My name is Arwa. I am a student at Code Institute. 
+                I was formerly a graduate in Information Systems. However, my interest with the ability to create an outcome 
+                from ideas using Software Development made my passion continue on in that direction. 
+                The inquisitives on the requirements to becoming a fullstack developer lead me to delve into pursuing 
+                a course in Software Development.
+            </p>
+            <p>
+              I inspire to create projects using skills I can acquire to project out ideas I have.
+            </p>
+
+In my free time, I like to explore different languages on my laptop, or brewing up food concoctions in the kitchen.
         </div>
         <div class="col-sm-4 col-md-5 col-lg-4">
           <img src="images/portrait-photo.jpg" class="img-thumbnail">
         </div>
       </div>
-
     </section>
+
 
     <!--My Skills-->
     <section id="skills">
       <h1>My Skills</h1>.
 
-
         <div class="row align-items-center p-2">
           
-          <div class="p-2 col">
+          <div class="p-2 col-2">
             <a class="btn btn-outline-danger" href="https://en.wikipedia.org/wiki/HTML" target="_blank" role="button">HTML</a>
           </div>
-          <div class="p-2 col">
+          <div class="p-2 col-2">
             <a class="btn btn-outline-primary" href="https://en.wikipedia.org/wiki/Cascading_Style_Sheets" target="_blank" role="button">CSS</a>
           </div>
-          <div class="p-2 col">
+          <div class="p-2 col-2">
             <a class="btn btn-outline-dark" href="https://en.wikipedia.org/wiki/Bootstrap_(front-end_framework)" target="_blank" role="button">Bootstrap</a>
           </div>
-          <div class="p-2 col">
+          <div class="p-2 col-2">
             <a class="btn btn-outline-info" href="https://en.wikipedia.org/wiki/Java_(programming_language)" target="_blank" role="button">Java</a>
           </div>
-          <div class="p-2 col">
+          <div class="p-2 col-2">
             <a class="btn btn-outline-secondary" href="https://en.wikipedia.org/wiki/JavaScript" target="_blank" role="button">JavaScript</a>
           </div>
-          <div class="p-2 col">
+          <div class="p-2 col-2">
             <a class="btn btn-outline-info" href="https://en.wikipedia.org/wiki/SQL" target="_blank" role="button">SQL</a>
           </div>
 
       </div>
-
     </section>
+
 
     <!--My Projects-->
     <section id="projects">
@@ -92,6 +111,7 @@
       <div class="row justify-content-around">
         <div class="col-md-3 col-sm-2">
 
+          <!--First Project-->
           <div class="card mb-2" style="width:100%;">
             <img src="images/draw.jpg" class="card-img-top" alt="Learn To Draw">
             <div class="card-body">
@@ -101,6 +121,7 @@
           </div>
         </div>
 
+        <!--Second Project-->
         <div class="col-md-3 col-sm-2">
 
           <div class="card mb-2" style="width:100%;">
@@ -115,6 +136,7 @@
 
         <div class="col-md-3 col-sm-2">
 
+          <!--Third Project-->
           <div class="card mb-2" style="width:100%;">
             <img src="images/food.jpg" class="card-img-top" alt="Cooking Recipes">
             <div class="card-body">
@@ -151,6 +173,7 @@
             <button class="btn btn-secondary" type="submit">Submit </button>
           </form>
           
+          <!--Alternate contact via social medial icon links-->
           <div class="row p-4 text-left">Alternatively, connect with me via the following:</div>
           
           <div class="row d-flex align-content-left">
@@ -179,7 +202,7 @@
 
     </div>
 
-    <footer class="container-fluid fixed-bottom">
+    <footer class="container-fluid fixed-bottom"> <!--design of footer done by CSS-->
 
     </footer>
 
