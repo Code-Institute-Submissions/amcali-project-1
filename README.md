@@ -2,7 +2,7 @@
 
 ## Milestone Project - User Centric Frontend Development Milestone Project ##
 
-This is my website to present a portfolio for myself. As I do not have any work experience to share, I generated a list of software related skills I have learnt and projects to present on my website. The aim of the website is to essentially target any talent seekers, or any individuals or organisations which would like to contact me for any collaborations.
+This is my website to present a portfolio for myself. As I do not have any software related work experience to share, I generated a list of software related skills I have learnt and projects to present on my website. The aim of the website is to essentially target any talent seekers, or any individuals or organisations which would like to contact me for any collaborations.
 
 
 ## Demo ##
@@ -19,7 +19,7 @@ Through interactive components such as the UX and the multimedia contents and li
 ## Features ##
 My website has the following features:
 
-### Navigation###
+### Navigation ###
 The navigation bar has been placed to stay at the top of the webpage. The links it contains link up to the respective sections on the webpage:
 * Home
 * About Me
@@ -37,26 +37,13 @@ A screenshot of the coding is available here: https://github.com/amcali/project-
 The hero image and the motto aims to give the user an idea of my persona.
 The intention of using the jumbotron was to give the website the ability to be mobile responsive; as a homepage, the image was to act as a home screen.
 
-###About Me###
+### About Me ###
 This is a brief and simple outline describing what I am currently pursuing and something that describes what I do in my past time.
 This section was created using a container and placing the text and image into different rows.
 I used the Boostrap feature of columns and rows to ensure the section could adapt as much as possible to being mobile responsive.
+The coding template was adapted from https://getbootstrap.com/docs/4.3/layout/grid/#equal-width-multi-row
 
-    <section id="about">
-      <h1>About Me</h1>
-      <div class="row justify-content-center">
-        <div class="col-sm-3 col-md-5 col-lg-4 pt-md-3 pt-lg-5 justify-items-center" style="text-align:center; word-spacing:5px;">
-            My name is Arwa. I am a Software Development student at Code Institute. In my free time, I like to explore different languages on my laptop, or brewing up food concoctions in the kitchen.
-        </div>
-        <div class="col-sm-4 col-md-5 col-lg-4">
-          <img src="images/portrait-photo.jpg" class="img-thumbnail">
-        </div>
-      </div>
-
-    </section>
-
-###My Skills###
-
+### My Skills ###
 This section used Bootstrap buttons and had been linked with anchors to the respective explanation of the software skill stated.
 The purpose of this was to serve to users who are not familiar with software skills what each of the skills were.
 The links were all taken from Wikipedia website:
@@ -92,21 +79,55 @@ The buttons were arranged into rows and columns which used Boostrap, as it helpe
           </div>
 
 
-###My Projects###
+### My Projects ###
+This section used the Bootstrap Card as an illustration means to portray the projects displayed. 
+The coding template was adapted from https://getbootstrap.com/docs/4.3/components/card/ : 
+
+<div class="card" style="width: 18rem;">
+  <div class="card-body">
+    <h5 class="card-title">Card title</h5>
+    <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <a href="#" class="card-link">Card link</a>
+    <a href="#" class="card-link">Another link</a>
+  </div>
+</div>
+
+All photos displayed in the cards were taken from Pexels:
+https://www.pexels.com/photo/assorted-salads-on-bowls-1640773/
+https://www.pexels.com/photo/person-holding-black-click-pen-697055/
+https://www.pexels.com/photo/pile-of-books-159866/
+
+The accessible links stated in each of the card belong to third party websites:
+https://www.drawinghowtodraw.com/stepbystepdrawinglessons/
+https://elnacain.com/blog/getting-started-freelance-writing/
+https://www.goodfood.com.au/recipes/recipe-collections
 
 
-###Contact Me###
+### Contact Me ###
+The Contact Me section comprises of a form for users to potentially send a message to me, or to alternatively connect with me via my social medial accounts. 
 
-###Footer###
-
-
-##Contact Form##
 The background image to this section was taken from pexels:
 https://www.pexels.com/photo/black-ball-point-pen-with-brown-spiral-notebook-733852/
 
+The form coding template was adapted from Bootstrap Forms:
+https://getbootstrap.com/docs/4.3/components/forms/
+
+All the social media accounts belong to me:
+LinkedIn: https://www.linkedin.com/in/arwa-mc-ali
+Facebook: https://m.facebook.com/mar.yam.5283#_=_
+Instagram: http://www.instagram.com/arwa_m_ali
+
+### Footer ###
+For UI purposes, I placed an empty footer spacing as a means to balance the colours on the webpage.
 
 
-##Technologies Used##
+## Contact Form ##
+The contact form used Bootstrap Form: https://getbootstrap.com/docs/4.3/components/forms/
+The submit button links to an acknowledgement webpage: https://www.github.com/amcali/thank-you.html
+
+
+## Technologies Used ##
 1. HTML
 2. CSS
 3. Bootstrap 4
@@ -115,30 +136,45 @@ I used the following websites to aid me with my project: and to adapt codes, lin
 Bootstrap library and template codes: https://getbootstrap.com https://mdbootstrap.com
 HTML and CSS examples and code: https://www.w3schools.com
 Images used in for the website background-images, jumbotron, cards featured in "My Project" section: https://www.pexels.com
+Icon images in the "Contact Me" section were taken from Font Awesome: https://fontawesome.com/v4.7.0/
 Image used in "About Me" section was taken from my personal LinkedIn profile: https://www.linkedin.com/in/arwa-mc-ali
 Colours chosen for the website: https://www.canva.com/colors/color-wheel/ https://coolors.co/
 
 
-
-##Features Left To Implement##
-
-##Another feature idea##
-
-##JQuery##
-
-##Testing##
+## Features Left To Implement ##
+I would like to have the contact form to be linked to my email, so that I would be able to receive any messages sent via the form.
+I would like to have a means of validating the field contents prior to the message being sent.
 
 
-##Deployment##
+## Another feature idea ##
+I would like to in future be able to have actual projects portraited in place of the current ones in "My Skills" section.
 
-##Credits##
 
-###Content###
+## JQuery ##
+No immediate usage of JQuery was used in this project.
 
-###Media###
 
-###Acknowledgement###
+## Testing ##
+I have tested the appearance of my webpage on different media device screens to ensure presentation is appropriate according to the media device size.
 
+
+## Deployment ##
+This site is hosted using GitHub pages, and it is deployed directly from the master branch. In order for the site to deploy correctly on GitHub pages, the landing page must be named index.html.
+
+
+## Credits ##
+
+### Content ###
+All contents written on the webpage were written by me.
+Aside from numerous third party websites giving me inspirations, I would like to particularly mention [this website] (https://christyannejones.com) which gave me a basis of starting my webpage.
+
+### Media ###
+All photos were taken from [Pexels] (https://www.pexels.com), and [my LinkedIn Account] (https://www.linkedin.com/in/arwa-mc-ali).
+All graphic icons used were taken from [Font Awesome] (https://fontawesome.com/v4.7.0/).
+
+
+### Acknowledgement ###
+__The third party websites mentioned above that were used to create this webpage was purely for educational purposes.__
 
 
 
