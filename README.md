@@ -6,7 +6,7 @@ This is my website to present a portfolio for myself. As I do not have any softw
 
 
 ## Demo ##
-A live demo can be found [here] (https://www.github.com/amcali/project-1)
+A live demo can be found here: https://www.github.com/amcali/project-1
 
 
 ## UX ##
@@ -166,10 +166,10 @@ This site is hosted using GitHub pages, and it is deployed directly from the mas
 
 ### Content ###
 All contents written on the webpage were written by me.
-Aside from numerous third party websites giving me inspirations, I would like to particularly mention [this website] (https://christyannejones.com) which gave me a basis of starting my webpage.
+Aside from numerous third party websites giving me inspirations, I would like to particularly mention https://christyannejones.com which gave me a basis of starting my webpage.
 
 ### Media ###
-All photos were taken from [Pexels] (https://www.pexels.com), and [my LinkedIn Account] (https://www.linkedin.com/in/arwa-mc-ali).
+All photos were taken from [Pexels https://www.pexels.com], and [my LinkedIn Account] (https://www.linkedin.com/in/arwa-mc-ali).
 All graphic icons used were taken from [Font Awesome] (https://fontawesome.com/v4.7.0/).
 
 
