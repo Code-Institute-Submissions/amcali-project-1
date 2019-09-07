@@ -69,7 +69,7 @@ nav {
     margin:0px;
     position:absolute;
     left:0;
-    top:70%;
+    top:40%;
     width:100%;
     font-family: 'Dancing Script', cursive;
     color:white;
@@ -80,17 +80,6 @@ nav {
     background-color:rgba(255,255,255,0.6);
 }
 
-
-/*.my-photo{*/
-/*    background-image:url("images/portrait-photo.jpg");*/
-/*    height:300px;*/
-    /*width:100px;*/
-/*    background-size: contain; */
-/*    background-position: right;*/
-/*    background-repeat: no-repeat;*/
-/*    background-attachment:fixed;*/
-    /*z-index:1;*/
-/*}*/
 
 .btn{
     padding: 15px 10px;
@@ -139,6 +128,21 @@ footer{
         padding:5px;
         font-size: 8px;
     }
+
+    .motto{
+        top:65%;
+    }
+    
+
+    .my-photo{
+        width:60%;
+        /*height:auto;*/
+    }
+
+    .about-me-text{
+        width:85%;
+    }
+    
     #contact{
     padding-top:40px;
 }
@@ -152,9 +156,23 @@ footer{
         font-size: 12px;
     }
     
+    .motto{
+        top:25%;
+    }
+    
     #about, #skills, #projects{
     padding-top:20px;
 }
+
+    .my-photo{
+        /*width:50%;*/
+        height:auto;
+    }
+
+    .about-me-text{
+        width:30%;
+        text-align:center;
+    }
     
     #contact{
     padding-top:30px;
@@ -162,15 +180,24 @@ footer{
     
 }
 
-/*Medium devices (tablets, less than 992px)*/
-@media (min-width: 767.99px) and (max-width: 991.98px) { 
-        body,html{
-        font-size:12px;
-    }
+/*Small to Medium devices (landscape phones, less than 768px)*/
+@media (min-width: 767.99px) and (max-width: 991.98px) {
 
     #about, #skills, #projects{
     padding-top:30px;
 }
+
+    .motto{
+        top:50%;
+    }
+
+    .my-photo{
+        height:auto;
+    }
+
+    .about-me-text{
+        width:20%;
+    }
 
     #contact{
     padding-top:40px;
@@ -184,10 +211,18 @@ footer{
         body,html{
         font-size:15px;
     }
+    
+    .motto{
+        top:60%;
+    }
 
     #about, #skills, #projects{
     padding-top:40px;
 }
+
+    .about-me-text{
+        width:40%;
+    }
 
 
     #contact{
