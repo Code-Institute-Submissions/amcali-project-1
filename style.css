@@ -8,9 +8,16 @@ html, body{
     /*font-size:18px;*/
     font-weight:300;
     color:#7C6C82;
-    background-color:#F0FDCA;
+    background-color:#E5E8E6;
+    /*z-index:-1;*/
+    /*background-image: radial-gradient(#FFFBF7, #E5E8E6);*/
+    opacity:0.9;
 }
 
+
+/*#incremental-change-color{*/
+/*    background-image: linear-gradient(#E5E8E6, #E9ECEA, #F6F6F4);*/
+/*}*/
 
 /*Ensure spacing between different sections*/
 section{
@@ -98,9 +105,15 @@ nav {
 /*Setting height to My Skills section*/
 .my-skills{
     height:50vh;
-    background-color:orange;
 }
 
+#skills{
+    background-color:#E9ECEA;
+}
+
+#projects{
+    background-color:#F6F6F4; /*#F1F2EF #F4F3F2 #F2F4F2; #F4F5F3;*/
+}
 
 #contact{
     margin:0;
