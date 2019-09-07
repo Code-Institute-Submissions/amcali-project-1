@@ -28,7 +28,7 @@
   </nav>
 
 
-  <div class="container-fluid"> <!--align-items-center-->
+  <div class="container-fluid m-0 p-0"> <!--align-items-center-->
 
 
     <!--Home Section-->
@@ -40,7 +40,7 @@
         
         <section id="home">
           <div class="motto">
-            <span id="motto-1">
+            <div id="motto-1">
             <h2>
               Stepping stones pebble milestones. 
             </h2>
@@ -49,31 +49,53 @@
               Milestones mine gemstones.
             </h2>
           </div>
+          </div>
         </section>
 
 
     <!--About Me-->
-    <section id="about"> <!--style="height:100px;"-->
-      <h1>About Me</h1>
-      <div class="row justify-content-center">
-        <div class="col-sm-4 col-md-5 col-lg-4 order-2">
-          <img src="images/portrait-photo.jpg" class="img-thumbnail">
-        </div>
-        <div class="col-sm-3 col-md-5 col-lg-4 pt-md-3 pt-lg-5 justify-items-center" style="text-align:justify;">
-            <p> My name is Arwa. I am a student at Code Institute. 
-                I was formerly a graduate in Information Systems. However, my interest with the ability to create an outcome 
-                from ideas using Software Development made my passion continue on in that direction. 
-                The inquisitives on the requirements to becoming a fullstack developer lead me to delve into pursuing 
-                a course in Software Development.
-            </p>
-            <p>
-              I inspire to create projects using skills I can acquire to project out ideas I have.
-            </p>
-            <p>
-            In my free time, I like to explore different languages on my laptop, or brewing up food concoctions in the kitchen.
-            </p>
-        </div>
+    <section id="about"> <!--style="height:100px;"
+      <!--to place my photo in the background for certain sizes-->
+        <h1>About Me</h1>
+    <!--    <div class="row">-->
+    <!--      <div class="col-md-4 col-lg-2 mt-sm-6 order-sm-1 ml-6 mr-4">-->
+    <!--        <img src="images/portrait-photo.jpg" class="img-thumbnail">-->
+            <!--<div class="container my-photo"></div>-->
+    <!--      </div>-->
+    <!--      <div class="col my-auto ml-4 mr-4" style="text-align:justify;"> <!--pt-sm-8 pt-md-4 pt-lg-6-->
+    <!--          <p> My name is Arwa, and I am a student at Code Institute. -->
+    <!--              I am an Information Systems graduate. However, my interest with the ability to create an outcome -->
+    <!--              from ideas using Software Development made my passion continue on in that direction. -->
+    <!--              The inquisitives on the requirements to becoming a fullstack developer lead me to delve into pursuing -->
+    <!--              a course in Software Development.-->
+    <!--          </p>-->
+    <!--          <p>-->
+    <!--            I inspire to create projects using skills I can acquire to project out ideas I have.-->
+    <!--          </p>-->
+    <!--          <p>-->
+    <!--          In my free time, I like to explore different languages on my laptop, or brewing up food concoctions in the kitchen.-->
+    <!--          </p>-->
+    <!--      </div>-->
+    <!--  </div>-->
+    
+    <div class="card mx-auto" style="width:60%;">
+      <div class="card-body">
+      <img src="images/portrait-photo.jpg" class="card-img-top" alt="...">
+      <p class="card-text">
+        My name is Arwa, and I am a student at Code Institute.
+        I am an Information Systems graduate. However, my interest with the ability to create an outcome 
+        from ideas using Software Development made my passion continue on in that direction. 
+        The inquisitives on the requirements to becoming a fullstack developer lead me to delve into pursuing 
+        a course in Software Development.
+      </p>
+      <p>
+        I inspire to create projects using skills I can acquire to project out ideas I have.
+      </p>
+      <p>
+        In my free time, I like to explore different languages on my laptop, or brewing up food concoctions in the kitchen.
+      </p>
       </div>
+    </div>
     </section>
 
 
@@ -102,7 +124,7 @@
             <a class="btn btn-outline-info" href="https://en.wikipedia.org/wiki/SQL" target="_blank" role="button">SQL</a>
           </div>
 
-      </div>
+        </div>
     </section>
 
 

@@ -1,10 +1,11 @@
 
 /*Font and webpage background colour*/
 html, body{
-    /*margin:0px;*/
-    /*padding:0px;*/
+    margin:0px;
+    padding:0px;
+    height:100%;
     font-family: 'IBM Plex Serif', serif;
-    font-size:20px;
+    /*font-size:18px;*/
     font-weight:300;
     color:#7C6C82;
     background-color:#F0FDCA;
@@ -15,7 +16,6 @@ html, body{
 section{
     margin:0;
     padding-bottom:40px;
-    /*padding-left:15px;*/
 }
 
 
@@ -26,9 +26,9 @@ h1{
 }
 
 
-#home, #about, #skills, #projects, #contact{
-    margin:0;
-}
+/*#home, #about, #skills, #projects, #contact{*/
+/*    margin:0;*/
+/*}*/
 
 
 nav {
@@ -80,6 +80,17 @@ nav {
     background-color:rgba(255,255,255,0.6);
 }
 
+
+/*.my-photo{*/
+/*    background-image:url("images/portrait-photo.jpg");*/
+/*    height:300px;*/
+    /*width:100px;*/
+/*    background-size: contain; */
+/*    background-position: right;*/
+/*    background-repeat: no-repeat;*/
+/*    background-attachment:fixed;*/
+    /*z-index:1;*/
+/*}*/
 
 .btn{
     padding: 15px 10px;
@@ -138,7 +149,7 @@ footer{
 /*Small devices (landscape phones, less than 768px)*/
 @media (min-width: 575.99px) and (max-width: 767.98px) {
         body,html{
-        font-size: 10px;
+        font-size: 12px;
     }
     
     #about, #skills, #projects{
@@ -177,7 +188,8 @@ footer{
     #about, #skills, #projects{
     padding-top:40px;
 }
-    
+
+
     #contact{
     padding-top:50px;
 }
