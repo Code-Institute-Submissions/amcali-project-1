@@ -84,10 +84,15 @@ nav {
     text-align: justify;
 }
 
-.btn{
-    padding: 10px 10px;
+/*.btn{*/
+    /*padding: 10px 10px;*/
     /*font-size: 25px;*/
-    border-radius: 50%;
+    /*border-radius: 50%;*/
+    /*border-radius: 15px 50px 30px;*/
+/*}*/
+
+.card-link:hover{
+    background-color:blue;
 }
 
 
