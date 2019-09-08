@@ -22,11 +22,11 @@
 
   <!--Nav Bar-->
   <nav class="nav nav-pills nav-fill fixed-top">
-    <a class="nav-item nav-link" style="color:#221E24; font-weight:500;" href="#home">Home</a>
-    <a class="nav-item nav-link" style="color:#221E24; font-weight:500;" href="#about">About</a>
-    <a class="nav-item nav-link" style="color:#221E24; font-weight:500;" href="#skills">Skills</a>
-    <a class="nav-item nav-link" style="color:#221E24; font-weight:500;" href="#projects">Projects</a>
-    <a class="nav-item nav-link" style="color:#221E24; font-weight:500;" href="#contact">Contact</a>
+    <a class="nav-item nav-link" style="color:#221E24; letter-spacing:2px; font-weight:500;" href="#home">Home</a>
+    <a class="nav-item nav-link" style="color:#221E24; letter-spacing:2px; font-weight:500;" href="#about">About</a>
+    <a class="nav-item nav-link" style="color:#221E24; letter-spacing:2px; font-weight:500;" href="#skills">Skills</a>
+    <a class="nav-item nav-link" style="color:#221E24; letter-spacing:2px; font-weight:500;" href="#projects">Projects</a>
+    <a class="nav-item nav-link" style="color:#221E24; letter-spacing:2px; font-weight:500;" href="#contact">Contact</a>
   </nav>
 
 
@@ -196,7 +196,7 @@
 
       <div class="row justify-content-around">
 
-          <!--First Project-->
+          <!--First Project - Learn to Draw-->
           <div class="col-md-3 col-sm-6 m-4">
             <div class="card mb-2" style="width:100%;">
               <img src="images/draw.jpg" class="card-img-top" alt="Learn To Draw">
@@ -206,7 +206,7 @@
             </div>
         </div>
 
-        <!--Second Project-->
+        <!--Second Project - Learn Freelance Writing-->
         <div class="col-md-3 col-sm-6 m-4">
           <div class="card mb-2" style="width:100%;">
             <img src="images/book.jpg" class="card-img-top" alt="Freelance Writing">
@@ -218,7 +218,7 @@
 
 
 
-          <!--Third Project-->
+          <!--Third Project - Cooking Recipe Collection-->
           <div class="col-md-3 col-sm-6 m-4">
             <div class="card mb-2" style="width:100%;">
               <img src="images/food.jpg" class="card-img-top" alt="Cooking Recipes">
@@ -228,10 +228,9 @@
             </div>
         </div>
         
-
     </div>  
 
-    </section>
+  </section>
     
 
     <!--Contact Me-->
@@ -242,10 +241,9 @@
           <div class="card">
             
             <div class="card-body">
-              <div class="card-text row p-4 text-left">Feel free to leave a comment or if you would like to get in touch with me for any collaborations:</div>
-              
-              <!--Alternate contact via social medial icon links-->
-              <div class="card-text row p-4 text-left">Alternatively, connect with me via the following:</div>
+
+              <!--Contact via social medial icon links-->
+              <div class="card-text row p-4 text-left">Connect with me on social media:</div>
               
               <div class="row d-flex align-content-left">
               <div class="col m-1">
@@ -275,33 +273,68 @@
           <div class="card">
             <div class="card-body">
               
-              <form method="get" action="thank-you.html" target="_blank">
+              <div class="card-text row p-4 text-left">
+                Please leave a comment if you would like me to get in touch with you, or if you would like to do any collaborations:
+              </div>
+              
+              <form> <!--method="get" action="thank-you.html" target="_blank"-->
+              
+                <!--Name Field-->
                 <div class="form-group col-6">
                   <label for="name-field">Name:</label>
-                  <textarea class="form-control" id="name-field" rows="1"></textarea>
+                  <textarea class="form-control" id="name-field" rows="1" required></textarea>
                 </div>
+                
+                <!--Email Address Field-->
                 <div class="form-group col-6 col-sm-8">
                   <label for="email-field">Email address:</label>
-                  <input type="email" class="form-control" id="email-field" aria-describedby="emailHelp" placeholder="Enter email">
+                  <input type="email" class="form-control" id="email-field" aria-describedby="emailHelp" placeholder="" required>
                 </div>
                 <div class="form-group col-6 col-sm-8">
                   <label for="message">Message:</label>
-                  <textarea class="form-control" id="message" rows="3"></textarea>
+                  <textarea class="form-control" id="message" style"overflow:scroll;" rows="3" required></textarea>
                 </div>
-                <button class="btn btn-secondary" type="submit">Submit </button>
+                <button class="btn btn-sm btn-secondary" type="submit" data-toggle="modal" data-target="#construction-modal">Submit</button>
               </form>
+              
+                <!-- The Modal -->
+                <div class="modal" tabindex="-1" role="modal-dialog" id="construction-modal">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                    
+                      <!-- Modal Header -->
+                      <div class="modal-header">
+                        <h4 class="modal-title">Modal Heading</h4>
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                      </div>
+                      
+                      <!-- Modal body -->
+                      <div class="modal-body">
+                        Modal body..
+                      </div>
+                      
+                      <!-- Modal footer -->
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Ok</button>
+                      </div>
+                      
+                    </div>
+                  </div>
+                </div>
+              
+
               
             </div>
           </div>
           
-
+        </div>
+    
 
     </section> <!--contact-me-->
 
 
-    </div>
-    
-    </section>
+  </div>
+
     
 
     <!--Footer-->
@@ -314,5 +347,7 @@
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js " integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo " crossorigin="anonymous "></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js " integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1 " crossorigin="anonymous "></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js " integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM " crossorigin="anonymous "></script>
+    
+
   </body>
 </html>
