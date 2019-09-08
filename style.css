@@ -8,7 +8,6 @@ html, body{
     /*font-size:18px;*/
     font-weight:300;
     color:#7C6C82;
-    background-color:#E5E8E6;
     /*z-index:-1;*/
     /*background-image: radial-gradient(#FFFBF7, #E5E8E6);*/
     opacity:0.9;
@@ -71,6 +70,9 @@ nav {
     background-attachment:fixed;
 }
 
+#about{
+        background-color:#DCEDEA; /*8FB996; A1CCA5; #E5E8E6;*/
+}
 
 .motto{
     margin:0px;
@@ -79,7 +81,8 @@ nav {
     top:50%;
     width:100%;
     font-family: 'Dancing Script', cursive;
-    color:white;
+    font-weight:600;
+    color:#6E4555;             /*#D282A6;*/
     letter-spacing:10px;
     text-shadow: 1px 1px 2px white, 0 0 1em blue, 0 0 0.2em blue;
     text-align:center;
@@ -108,7 +111,13 @@ nav {
 }
 
 #skills{
-    background-color:#E9ECEA;
+    /*background-color:#E9ECEA;*/
+    margin:0;
+    padding:0;
+    height:810px;
+    background-image:url(images/skills-image.jpg);
+    background-size:cover;
+    background-attachment:fixed;
 }
 
 #projects{
