@@ -160,7 +160,7 @@ nav {
     
     .skills-card{
         width:60%;
-        font-size:20px;
+        font-size:12px;
         text-align:center;
     }
     
@@ -193,6 +193,12 @@ nav {
     .about-me-text{
         width:30%;
         text-align:center;
+    }
+    
+    .skills-card{
+    width:60%;
+    font-size:15px;
+    text-align:center;
     }
     
     #contact{
@@ -231,7 +237,7 @@ nav {
 @media (min-width: 991.99px) /*and (max-width: 1199.98px)*/ {
     
     body,html{
-    font-size:15px;
+    font-size:25px;
     }
     
     .motto{
@@ -252,7 +258,7 @@ nav {
 
     .skills-card{
         width:60%;
-        font-size:30px;
+        font-size:20px;
         text-align:center;
     }
     
