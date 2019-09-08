@@ -111,11 +111,11 @@ nav {
 }
 
 #skills{
-    /*background-color:#E9ECEA;*/
+    background-color:#E9ECEA;
     margin:0;
     padding:0;
-    height:810px;
-    background-image:url(images/skills-image.jpg);
+    /*height:810px;*/
+    /*background-image:url(images/skills-image.jpg);*/
     background-size:cover;
     background-attachment:fixed;
 }
