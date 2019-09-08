@@ -105,19 +105,15 @@ nav {
 /*    background-color:blue;*/
 /*}*/
 
-/*Setting height to My Skills section*/
-.my-skills{
-    height:50vh;
-}
 
 #skills{
     background-color:#E9ECEA;
     margin:0;
     padding:0;
-    /*height:810px;*/
+    /*height:;*/
     /*background-image:url(images/skills-image.jpg);*/
-    background-size:cover;
-    background-attachment:fixed;
+    /*background-size:cover;*/
+    /*background-attachment:fixed;*/
 }
 
 #projects{
