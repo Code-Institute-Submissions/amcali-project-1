@@ -94,12 +94,6 @@ nav {
     text-align: justify;
 }
 
-/*.btn{*/
-    /*padding: 10px 10px;*/
-    /*font-size: 25px;*/
-    /*border-radius: 50%;*/
-    /*border-radius: 15px 50px 30px;*/
-/*}*/
 
 /*.card-link:hover{*/
 /*    background-color:blue;*/
@@ -136,17 +130,6 @@ nav {
 #container-1{
     background-color:rgba(255,255,255,0.7);
 }
-
-
-
-footer{
-    margin:0;
-    padding:0px;
-    background-color:#CAD7FD;
-    height:20px;
-}
-
-
 
 
 
