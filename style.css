@@ -158,6 +158,12 @@ nav {
         width:85%;
     }
     
+    .skills-card{
+        width:60%;
+        font-size:20px;
+        text-align:center;
+    }
+    
     #contact{
     padding-top:40px;
 }
@@ -244,7 +250,12 @@ nav {
         width:40%;
     }
 
-
+    .skills-card{
+        width:60%;
+        font-size:30px;
+        text-align:center;
+    }
+    
     #contact{
     padding-top:50px;
     }
