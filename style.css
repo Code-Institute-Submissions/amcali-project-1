@@ -52,6 +52,11 @@ nav {
     text-decoration:none;
 }
 
+/*Coding adapted from https://stackoverflow.com/questions/18133653/how-to-change-bootstrap-scrollspy-active-link-color to change background color of active nav tab*/
+.nav-pills>.active{
+    background-color:green !important; /*change the color of this to something that suits the webpage color theme*/
+    font-weight:700;
+}
 
 .nav-item:hover{
     background-color:#99B2FB;
