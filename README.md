@@ -2,7 +2,7 @@
 
 ## Milestone Project - User Centric Frontend Development Milestone Project ##
 
-This is my website to present a portfolio for myself. As I do not have any software related work experience to share, I generated a list of software related skills I have learnt and projects to present on my website. The aim of the website is to essentially target any talent seekers, or any individuals or organisations which would like to contact me for any collaborations.
+This is my website to present a portfolio for myself. As I do not have any software related work experience to share, I generated a list of software related skills I have learnt and projects to present on my website. The aim of the website is to essentially target any talent seekers, or any individuals or organisations who would like to contact me for any collaborations.
 
 
 ## Demo ##
@@ -44,39 +44,9 @@ I used the Boostrap feature of columns and rows to ensure the section could adap
 The coding template was adapted from https://getbootstrap.com/docs/4.3/layout/grid/#equal-width-multi-row
 
 ### My Skills ###
-This section used Bootstrap buttons and had been linked with anchors to the respective explanation of the software skill stated.
-The purpose of this was to serve to users who are not familiar with software skills what each of the skills were.
-The links were all taken from Wikipedia website:
-
-* HTML: https://en.wikipedia.org/wiki/HTML
-* CSS: https://en.wikipedia.org/wiki/Cascading_Style_Sheets
-* Bootstrap: https://en.wikipedia.org/wiki/Bootstrap_(front-end_framework)
-* Java: https://en.wikipedia.org/wiki/Java_(programming_language)
-* JavaScript: https://en.wikipedia.org/wiki/JavaScript
-* SQL: https://en.wikipedia.org/wiki/SQL
-
-The buttons were arranged into rows and columns which used Boostrap, as it helped to incorporate media responsive design to the section:
-
-        <div class="row align-items-center p-2">
-          
-          <div class="p-2 col">
-            <a class="btn btn-outline-danger" href="https://en.wikipedia.org/wiki/HTML" target="_blank" role="button">HTML</a>
-          </div>
-          <div class="p-2 col">
-            <a class="btn btn-outline-primary" href="https://en.wikipedia.org/wiki/Cascading_Style_Sheets" target="_blank" role="button">CSS</a>
-          </div>
-          <div class="p-2 col">
-            <a class="btn btn-outline-dark" href="https://en.wikipedia.org/wiki/Bootstrap_(front-end_framework)" target="_blank" role="button">Bootstrap</a>
-          </div>
-          <div class="p-2 col">
-            <a class="btn btn-outline-info" href="https://en.wikipedia.org/wiki/Java_(programming_language)" target="_blank" role="button">Java</a>
-          </div>
-          <div class="p-2 col">
-            <a class="btn btn-outline-secondary" href="https://en.wikipedia.org/wiki/JavaScript" target="_blank" role="button">JavaScript</a>
-          </div>
-          <div class="p-2 col">
-            <a class="btn btn-outline-info" href="https://en.wikipedia.org/wiki/SQL" target="_blank" role="button">SQL</a>
-          </div>
+This section is to display my software related skills. 
+I used Bootstrap cards to present the skills. The image overlays set in the background were taken from pexels:
+https://www.pexels.com/photo/close-up-of-computer-keyboard-on-table-317353/
 
 
 ### My Projects ###
@@ -118,6 +88,8 @@ LinkedIn: https://www.linkedin.com/in/arwa-mc-ali
 Facebook: https://m.facebook.com/mar.yam.5283#_=_
 Instagram: http://www.instagram.com/arwa_m_ali
 
+As the form is not able to function in sending messages created by the user, I implemented a modal for which the code was adapted from the following source: https://www.w3schools.com/bootstrap4/bootstrap_modal.asp
+
 ### Footer ###
 For UI purposes, I placed an empty footer spacing as a means to balance the colours on the webpage.
 
@@ -147,7 +119,7 @@ I would like to have a means of validating the field contents prior to the messa
 
 
 ## Another feature idea ##
-I would like to in future be able to have actual projects portraited in place of the current ones in "My Skills" section.
+I would like to in future be able to have actual projects by me in place of the current ones showing in "My Skills" section.
 
 
 ## JQuery ##
@@ -166,7 +138,7 @@ This site is hosted using GitHub pages, and it is deployed directly from the mas
 
 ### Content ###
 All contents written on the webpage were written by me.
-Aside from numerous third party websites giving me inspirations, I would like to particularly mention https://christyannejones.com which gave me a basis of starting my webpage.
+Aside from numerous third party websites giving me inspirations, I would like to particularly mention https://christyannejones.com and https://www.haleyschafer.com/ which gave me great contributing ideas on my webpage.
 
 ### Media ###
 All photos were taken from Pexels: https://www.pexels.com, and my LinkedIn Account: https://www.linkedin.com/in/arwa-mc-ali.
