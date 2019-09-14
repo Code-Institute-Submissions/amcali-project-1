@@ -12,7 +12,7 @@
   <link href="https://fonts.googleapis.com/css?family=Dancing+Script&display=swap" rel="stylesheet">
   <!--Jumbotron font style-->
   <link href="style.css" rel="stylesheet" type=text/css />
-
+  
   <title>Portfolio</title>
 </head>
 
@@ -22,19 +22,17 @@
 
 
   <!--Nav Bar-->
-  <nav class="nav nav-pills nav-fill fixed-top">
+  <nav class="nav nav-pills nav-fill m-0 p-0 fixed-top" style="background-color:#CAD7FD;">
     <a class="nav-item nav-link" style="color:#5B4F5F; letter-spacing:2px; font-weight:500; #DBD6DC" href="#home">Home</a>
     <a class="nav-item nav-link" style="color:#5B4F5F; letter-spacing:2px; font-weight:500; #DBD6DC;" href="#about">About</a>
     <a class="nav-item nav-link" style="color:#5B4F5F; letter-spacing:2px; font-weight:500; #DBD6DC;" href="#skills">Skills</a>
     <a class="nav-item nav-link" style="color:#5B4F5F; letter-spacing:2px; font-weight:500; #DBD6DC;" href="#projects">Projects</a>
     <a class="nav-item nav-link" style="color:#5B4F5F; letter-spacing:2px; font-weight:500; #DBD6DC;" href="#contact">Contact</a>
   </nav>
-  
-  
+
 
 
   <div class="container-fluid m-0 p-0"> <!--align-items-center-->
-
 
 
     <section id="home">
@@ -49,7 +47,7 @@
             </h2>
           </div>
           </div>
-        </section>
+    </section>
 
 
     <!--About Me-->
@@ -57,15 +55,14 @@
       <!--to place my photo in the background for certain sizes-->
         <h1>About Me</h1>
         
-    <div class="card-deck mx-auto" style="width:80%;">
-      <div class="card my-auto mx-auto my-photo">     <!--style="width:60%;-->
-        <div class="card-body">
-          <img src="images/portrait-photo.jpg" class="card-img-top" alt="...">
+      <div class="card-deck mx-auto" style="width:80%;">
+        <div class="card my-auto mx-auto my-photo">   
+          <div class="card-body">
+            <img src="images/portrait-photo.jpg" class="card-img-top" alt="...">
+          </div>
         </div>
-      </div>
-      
-      <!--<div class="card">-->
-        <div class="card-body about-me-text my-auto mx-auto">  <!-- style="width:40%;-->
+        
+        <div class="card-body about-me-text my-auto mx-auto">
           <p class="card-text">
             My name is Arwa, and I am a student at Code Institute.
             I am an Information Systems graduate. However, my interest to create an idea with technology has made me develop a passion to learn computer programming languages. 
@@ -78,8 +75,7 @@
             In my free time, I like to explore different languages on my laptop, or brewing up food concoctions in the kitchen.
           </p>
         </div>
-      <!--</div>-->
-    </div>
+      </div>
     
     </section>
 
@@ -93,9 +89,9 @@
           <div class="row justify-content-around" style="width:100%;">
             
             <!--HTML-->
-            <div class="col-4 col-lg-3 m-4 skills-card">
+            <div class="col-4 col-lg-2 m-4 skills-card">
               <div class="card">
-                <img class="card-img-top" src="images/skills-bg-picture.jpg" style="background-size:contain; alt="My Skills">
+                <img class="card-img-top" src="images/skills-bg-picture.jpg" style="background-size:contain; opacity:0.8;" alt="My Skills">
                 <div class="card-img-overlay">
                   <div class="card-body text-center">
                     <a class="card-text p-2 bg-white" style="color:#7C6C82;">HTML</a>
@@ -105,9 +101,9 @@
             </div>
             
             <!--CSS-->
-            <div class="col-4 col-lg-3 m-4 skills-card">
+            <div class="col-4 col-lg-2 m-4 skills-card">
               <div class="card"> 
-                <img class="card-img-top" src="images/skills-bg-picture.jpg" style="background-size:contain;" alt="My Skills">
+                <img class="card-img-top" src="images/skills-bg-picture.jpg" style="background-size:contain; opacity:0.8;" alt="My Skills">
                 <div class="card-img-overlay">
                   <div class="card-body text-center">
                     <a class="card-text p-2 bg-white" style="color:#7C6C82;">CSS</a>
@@ -117,21 +113,21 @@
             </div>
             
             <!--BootStrap-->
-            <div class="col-4 col-lg-3 m-4 skills-card">  
+            <div class="col-4 col-lg-2 m-4 skills-card">  
               <div class="card"> 
-                <img class="card-img-top" src="images/skills-bg-picture.jpg" style="background-size:contain;" alt="My Skills">
+                <img class="card-img-top" src="images/skills-bg-picture.jpg" style="background-size:contain; opacity:0.8;" alt="My Skills">
                 <div class="card-img-overlay">
                   <div class="card-body text-center">
-                    <a class="card-text p-2 bg-white" style="color:#7C6C82;">BootStrap</a>
+                    <a class="card-text p-1 bg-white" style="color:#7C6C82;">BootStrap</a>
                   </div>
                 </div>
               </div>
             </div>
             
             <!--Java-->
-            <div class="col-4 col-lg-3 m-4 skills-card">
+            <div class="col-4 col-lg-2 m-4 skills-card">
               <div class="card"> 
-                <img class="card-img-top" src="images/skills-bg-picture.jpg" style="background-size:contain;" alt="My Skills">
+                <img class="card-img-top" src="images/skills-bg-picture.jpg" style="background-size:contain; opacity:0.8;" alt="My Skills">
                 <div class="card-img-overlay">
                   <div class="card-body text-center">
                     <a class="card-text p-2 bg-white" style="color:#7C6C82;">Java</a>
@@ -140,10 +136,10 @@
               </div>
             </div>
             
-            <!--Python-->  
-            <div class="col-4 col-lg-3 m-4 skills-card">
+            <!--Python-->
+            <div class="col-4 col-lg-2 m-4 skills-card">
               <div class="card"> 
-                <img class="card-img-top" src="images/skills-bg-picture.jpg" style="background-size:contain;" alt="My Skills">
+                <img class="card-img-top" src="images/skills-bg-picture.jpg" style="background-size:contain; opacity:0.8;" alt="My Skills">
                 <div class="card-img-overlay">
                   <div class="card-body text-center">
                     <a class="card-text p-2 bg-white" style="color:#7C6C82;">Python</a>
@@ -152,22 +148,22 @@
               </div>
             </div>
             
-            <!--JavaScript-->  
-            <div class="col-4 col-lg-3 m-4 skills-card">
+            <!--JavaScript-->
+            <div class="col-4 col-lg-2 m-4 skills-card">
               <div class="card"> 
-                <img class="card-img-top" src="images/skills-bg-picture.jpg" style="background-size:contain;" alt="My Skills">
+                <img class="card-img-top" src="images/skills-bg-picture.jpg" style="background-size:contain; opacity:0.8;" alt="My Skills">
                 <div class="card-img-overlay">
                   <div class="card-body text-center">
-                    <a class="card-text p-2 bg-white" style="color:#7C6C82;">JavaScript</a>
+                    <a class="card-text p-1 bg-white" style="color:#7C6C82;">JavaScript</a>
                   </div>
                 </div>
               </div>
             </div>
             
             <!--SQL-->
-            <div class="col-4 col-lg-3 m-4 skills-card">
+            <div class="col-4 col-lg-2 m-4 skills-card">
               <div class="card"> 
-                <img class="card-img-top" src="images/skills-bg-picture.jpg" style="background-size:contain;" alt="My Skills">
+                <img class="card-img-top" src="images/skills-bg-picture.jpg" style="background-size:contain; opacity:0.8;" alt="My Skills">
                 <div class="card-img-overlay">
                   <div class="card-body text-center">
                     <a class="card-text p-2 bg-white" style="color:#7C6C82;">SQL</a>
@@ -176,10 +172,10 @@
               </div>
             </div>
             
-            <!--Django-->  
-            <div class="col-4 col-lg-3 m-4 skills-card">
+            <!--Django-->
+            <div class="col-4 col-lg-2 m-4 skills-card">
               <div class="card"> 
-                <img class="card-img-top" src="images/skills-bg-picture.jpg" style="background-size:contain;" alt="My Skills">
+                <img class="card-img-top" src="images/skills-bg-picture.jpg" style="background-size:contain; opacity:0.8;" alt="My Skills">
                 <div class="card-img-overlay">
                   <div class="card-body text-center">
                     <a class="card-text p-2 bg-white" style="color:#7C6C82;">Django</a>
@@ -189,13 +185,14 @@
             </div>              
               
           </div>
+          </div>
 
     </section>
 
 
     <!--My Projects-->
     <section class="container-fluid" id="projects">
-      <h1 class="mt-4 ml-2">My Projects</h1>
+      <h1>My Projects</h1>                             <!--class="mt-4 ml-2"-->
 
       <div class="row justify-content-around">
 
@@ -254,26 +251,26 @@
                   
                     <!--LinkedIn-->
                     <li class="list-group-item" style="border:0px;">
-                      <a class="icon" id="linkedin" href="https://www.linkedin.com/in/arwa-mc-ali" target="_blank">
+                      <a class="footer-icon stretched-link" id="linkedin" href="https://www.linkedin.com/in/arwa-mc-ali" target="_blank" style="text-decoration:none; vertical-align: middle;">
                         <i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i>
+                        <span>&nbsp;&nbsp;Linkedin</span>                       
                       </a>
-                      <span>&nbsp;&nbsp;Linkedin</span> 
                     </li>
                     
                     <!--Facebook-->
                     <li class="list-group-item" style="border:0px;">
-                      <a class="footer-icon" id="facebook" href="https://m.facebook.com/mar.yam.5283#_=_" target=" _blank ">
-                        <i class="fa fa-facebook-official fa-2x " aria-hidden="true "></i>
+                      <a class="footer-icon stretched-link" id="facebook" href="https://m.facebook.com/mar.yam.5283#_=_" target="_blank" style="text-decoration:none; vertical-align: middle;">
+                        <i class="fa fa-facebook-official fa-2x" aria-hidden="true"></i>
+                        <span>&nbsp;&nbsp;Facebook</span>                      
                       </a>
-                      <span>&nbsp;&nbsp;Facebook</span>
                     </li>
 
                     <!--Instagram-->
                     <li class="list-group-item" style="border:0px;">
-                      <a class="footer-icon " id="instagram " href="http://www.instagram.com/arwa_m_ali" target="_blank ">
-                        <i class="fa fa-instagram fa-2x " aria-hidden="true "></i>
+                      <a class="footer-icon stretched-link" id="instagram " href="http://www.instagram.com/arwa_m_ali" target="_blank " style="text-decoration:none; vertical-align: middle;">
+                        <i class="fa fa-instagram fa-2x" aria-hidden="true"></i>
+                        <span>&nbsp;&nbsp;Instagram</span>                        
                       </a>
-                      <span>&nbsp;&nbsp;Instagram</span>    
                     </li>
                   
                 </ul>
@@ -356,6 +353,8 @@
 
 
     <!-- Optional JavaScript -->
+    
+    
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js " integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo " crossorigin="anonymous "></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js " integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1 " crossorigin="anonymous "></script>

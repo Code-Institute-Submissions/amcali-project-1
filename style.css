@@ -8,20 +8,20 @@ html, body{
     /*font-size:18px;*/
     font-weight:300;
     color:#7C6C82;
-    /*z-index:-1;*/
-    /*background-image: radial-gradient(#FFFBF7, #E5E8E6);*/
     opacity:0.9;
 }
 
 
-/*#incremental-change-color{*/
-/*    background-image: linear-gradient(#E5E8E6, #E9ECEA, #F6F6F4);*/
-/*}*/
 
 /*Ensure spacing between different sections*/
 section{
     margin:0;
     padding-bottom:40px;
+}
+
+/*To prevent anchor jumps causing the header of each section to go hidden*/
+section::before {
+  padding-top:15px;
 }
 
 
@@ -35,18 +35,19 @@ h1{
 
 
 /*#home, #about, #skills, #projects, #contact{*/
-/*    margin:0;*/
+
 /*}*/
 
 
-nav{
-    margin:0px;
-    background-color:#CAD7FD;
-}
+/*nav{*/
+/*    margin:0px;*/
+/*    padding: 0px; */
+/*}*/
+
 
 
 .nav-item a{
-    padding:15px;
+    padding-top:15px;
     font-size: 30px;
     text-align:center;
     text-decoration:none;
@@ -62,6 +63,7 @@ nav{
     background-color:#E3EAFD;
     font-weight:700;
 }
+
 
 
 #home{
@@ -102,25 +104,21 @@ nav{
 }
 
 
-/*.card-link:hover{*/
-/*    background-color:blue;*/
-/*}*/
-
 
 #skills{
     background-color:#E9ECEA;
     margin:0;
     padding:0;
-    /*height:;*/
-    /*background-image:url(images/skills-image.jpg);*/
-    /*background-size:cover;*/
-    /*background-attachment:fixed;*/
 }
 
 #projects{
-    background-color:#F6F6F4; /*#F1F2EF #F4F3F2 #F2F4F2; #F4F5F3;*/
+    background-color:#F6F6F4;
     margin:0;
     padding:0;
+}
+
+.card-link:hover{
+    background-color:#E3EAFD;
 }
 
 #contact{
@@ -130,6 +128,13 @@ nav{
     background-image:url(images/contact-image.jpg);
     background-size:cover;
     background-attachment:fixed;
+
+}
+
+.footer-icon:hover{
+    vertical-align:middle;
+    background-color:#E3EAFD;
+    border-radius:5px;
 
 }
 
@@ -173,6 +178,10 @@ nav{
         text-align:center;
     }
     
+    .footer-icon:hover{
+    padding:10px;
+    }
+
     #contact{
     padding-top:40px;
 }
@@ -185,6 +194,7 @@ nav{
         body,html{
         font-size: 12px;
     }
+    
     
     .motto{
         top:25%;
@@ -208,6 +218,10 @@ nav{
     width:60%;
     font-size:15px;
     text-align:center;
+    }
+
+    .footer-icon:hover{
+    padding:10px;
     }
     
     #contact{
@@ -234,6 +248,11 @@ nav{
     .about-me-text{
         width:20%;
     }
+    
+    .footer-icon:hover{
+    padding:15px;
+    }
+    
 
     #contact{
     padding-top:40px;
@@ -266,9 +285,13 @@ nav{
     }
 
     .skills-card{
-        width:60%;
-        font-size:20px;
+        width: 30%;
+        font-size:80%;
         text-align:center;
+    }
+    
+    .footer-icon:hover{
+    padding:20px;
     }
     
     #contact{
