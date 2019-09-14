@@ -27,7 +27,7 @@ section{
 
 h1{
    padding:15px;
-    text-shadow: 2px 2px #DBD6DC;
+   text-shadow: 2px 2px #DBD6DC;
    text-align:center;
    font-weight:600;
    letter-spacing:3px;
@@ -39,7 +39,7 @@ h1{
 /*}*/
 
 
-nav {
+nav{
     margin:0px;
     background-color:#CAD7FD;
 }
@@ -54,12 +54,12 @@ nav {
 
 /*Coding adapted from https://stackoverflow.com/questions/18133653/how-to-change-bootstrap-scrollspy-active-link-color to change background color of active nav tab*/
 .nav-pills>.active{
-    background-color:green !important; /*change the color of this to something that suits the webpage color theme*/
+    background-color:#A2B9FB !important; /*change the color of this to something that suits the webpage color theme*/
     font-weight:700;
 }
 
 .nav-item:hover{
-    background-color:#99B2FB;
+    background-color:#E3EAFD;
     font-weight:700;
 }
 
@@ -119,6 +119,8 @@ nav {
 
 #projects{
     background-color:#F6F6F4; /*#F1F2EF #F4F3F2 #F2F4F2; #F4F5F3;*/
+    margin:0;
+    padding:0;
 }
 
 #contact{
