@@ -68,7 +68,7 @@ h1{
 }
 
 #about{
-        background-color:#DCEDEA; /*8FB996; A1CCA5; #E5E8E6;*/
+        background-color:#DCEDEA; 
 }
 
 .motto{
@@ -79,7 +79,7 @@ h1{
     width:100%;
     font-family: 'Dancing Script', cursive;
     font-weight:600;
-    color:#6E4555;             /*#D282A6;*/
+    color:#6E4555;             
     letter-spacing:10px;
     text-shadow: 1px 1px 2px white, 0 0 1em blue, 0 0 0.2em blue;
     text-align:center;
@@ -183,6 +183,11 @@ h1{
         font-size: 12px;
     }
     
+    nav{
+        margin-top:10px;
+        padding:0;
+    }
+    
     
     .motto{
         top:25%;
@@ -263,6 +268,11 @@ h1{
     font-size:25px;
     }
     
+    nav{
+    margin:0px;
+    padding:0px;
+    }
+    
     .motto{
         top:60%;
     }
@@ -294,6 +304,3 @@ h1{
     }
     
 }
-
-/*// Extra large devices (large desktops)*/
-/*// No media query since the extra-large breakpoint has no upper bound on its width*/
