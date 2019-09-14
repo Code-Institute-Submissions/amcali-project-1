@@ -128,6 +128,7 @@ No immediate usage of JQuery was used in this project.
 
 ## Testing ##
 I have tested the appearance of my webpage on different media device screens to ensure presentation is appropriate according to the media device size.
+The attempted coding that contributes to the development of my webpage may be found here: https://github.com/amcali/project-1/issues/2
 
 
 ## Deployment ##
